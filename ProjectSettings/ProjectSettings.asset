@@ -12,12 +12,12 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: ipodtouch0218
-  productName: NSMB-MarioVsLuigi
-  defaultCursor: {fileID: 0}
+  companyName: Lust/Moddimation
+  productName: NSLB-ModdimationVSLust
+  defaultCursor: {fileID: 2800000, guid: d8ad6453dc89bfb4b9fb72f304e3a987, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
-  m_ShowUnitySplashScreen: 0
+  m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
@@ -167,6 +167,7 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 11400000, guid: 49335f30d253220488d2d332ade6e901, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -304,7 +305,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 3536fc6b994f807498f0df6fa85fd2fe, type: 3}
+      m_Icon: {fileID: 2800000, guid: 128fe4782b8ee7844a55348fb881f203, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -913,6 +914,7 @@ PlayerSettings:
     Build: 0
     Collab: 0
     Game Performance: 0
+    Legacy Analytics: 0
     Purchasing: 0
     UDP: 0
     UNet: 1
@@ -930,11 +932,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 1
-  cloudProjectId: 3c43f6a5-de2f-4b33-8870-8e6e50f8d55b
+  cloudProjectId: 92cb4278-15e0-4834-b6dc-5b6cabe30cbd
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: mariooo
-  organizationId: danny-a-4565693
+  projectName: NSMB-MarioVsLuigi (1)
+  organizationId: arianlust
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 

@@ -8,10 +8,9 @@ using Photon.Realtime;
 public static class PhotonExtensions {
 
     private static readonly Dictionary<string, string> SPECIAL_PLAYERS = new() {
-        ["cf03abdb5d2ef1b6f0d30ae40303936f9ab22f387f8a1072e2849c8292470af1"] = "ipodtouch0218",
-        ["d5ba21667a5da00967cc5ebd64c0d648e554fb671637adb3d22a688157d39bf6"] = "mindnomad",
-        ["95962949aacdbb42a6123732dabe9c7200ded59d7eeb39c889067bafeebecc72"] = "MPS64",
-        ["7e9c6f2eaf0ce11098c8a90fcd9d48b13017667e33d09d0cc5dfe924f3ead6c1"] = "Fawndue",
+        ["8b2be94ce988ddc093db72b0df70fb6a08c3c89baea3a8ccb09ce1d630031c2b"] = "LustoUnity",
+        ["0288cebe1525464f9b86e59582a684296883acfe39d988070a5ec7eabbd0710a"] = "Lust",
+        ["778543884795a152b54d3d158a3f6f6f7f16e46e81a7f4ddbc54a4ee054b0820"] = "Moddimation",
     };
 
     public static bool IsMineOrLocal(this PhotonView view) {
