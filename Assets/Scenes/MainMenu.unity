@@ -354,7 +354,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16.7
+  m_fontSize: 13.35
   m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -22255,7 +22255,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.15
+  m_fontSize: 15.85
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -34346,7 +34346,7 @@ MonoBehaviour:
   creditsMenu: {fileID: 1386786002}
   controlsMenu: {fileID: 1325357895}
   privatePrompt: {fileID: 986802541}
-  updateBox: {fileID: 2127289169}
+  updateBox: {fileID: 0}
   levelCameraPositions:
   - {fileID: 1477183160}
   - {fileID: 978599145}
@@ -34408,7 +34408,7 @@ MonoBehaviour:
   controlsSelected: {fileID: 378613054}
   privateSelected: {fileID: 1974161483}
   reconnectSelected: {fileID: 393919388}
-  updateBoxSelected: {fileID: 699942805}
+  updateBoxSelected: {fileID: 0}
   errorBox: {fileID: 276608278}
   errorButton: {fileID: 1139030223}
   rebindPrompt: {fileID: 295478739}
@@ -34417,7 +34417,7 @@ MonoBehaviour:
   rebindCountdown: {fileID: 395885055}
   rebindText: {fileID: 1382848006}
   reconnectText: {fileID: 0}
-  updateText: {fileID: 664659097}
+  updateText: {fileID: 0}
   region: {fileID: 947074750}
   rebindManager: {fileID: 1657549225}
   connectThroughSecret: 
@@ -38221,7 +38221,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: vW.X.Y.Z-beta
+  m_text: NSLB 0.0.5.Alpha
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d42c556520644b148ada62f0b573e1a5, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 5ade88ee859873b4882004e755013bf7, type: 2}
@@ -81361,7 +81361,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.000015258789}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1603668786
@@ -81539,9 +81539,9 @@ RectTransform:
   - {fileID: 1324877903}
   - {fileID: 820727546}
   - {fileID: 1248603849}
+  - {fileID: 2127289170}
   - {fileID: 805109805}
   - {fileID: 986802542}
-  - {fileID: 2127289170}
   - {fileID: 276608279}
   - {fileID: 295478742}
   - {fileID: 566761497}
@@ -85568,7 +85568,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28.45
+  m_fontSize: 20.4
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -89261,7 +89261,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1141870934}
   m_HandleRect: {fileID: 1141870933}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
