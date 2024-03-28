@@ -137,7 +137,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.0.5-Alpha NSLB
+  bundleVersion: 0.0.6-Alpha NSLB
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 0}
