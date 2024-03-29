@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e5478bfbe63c3c46b392d3ca752690c, type: 3}
   m_Name: MusicStar
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: f27d61b2f9585d34d87f516602d80084, type: 3}
-  fastClip: {fileID: 8300000, guid: fb7f7b07afee8bf4cb6cfd9914335de2, type: 3}
-  loopStartSample: 9.133
-  loopEndSample: 26.945
+  clip: {fileID: 8300000, guid: b9a47f55e923fe0438400947097f6813, type: 3}
+  fastClip: {fileID: 8300000, guid: 778f70edc9943c74aa4d0030c1ce2944, type: 3}
+  loopStartSample: 3.01
+  loopEndSample: 6.012
