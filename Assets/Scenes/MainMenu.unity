@@ -3334,9 +3334,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<color=yellow>Mod by</color>\nLust\nModdimation\n\n<color=yellow>Mod Playtesters</color>\n\n\n<color=yellow>Original
-    Credits</color>\n\n<color=yellow>Game by</color>\nipodtouch0218\n\n<color=yellow>Github
-    Contributors</color>\nGradedWarrior\nTheMoogle\nSkillz\nSkarph\nZest\nkittenchilly\nAmy54Desu\nKraken\nShadowWalker13\nPerez\nmindnomad\n\n<color=yellow>Music</color>\nRENREN\n\n<color=yellow>QA
+  m_text: "<color=red>Mod by</color>\nLust\nModdimation\n\n<color=red>Mod Playtesters</color>\nn_and_doll_lover\nScrap\n\n<color=red>Assets
+    for Mod from</color>\nSuper Mario World\nSuper Mario 3D World\nMario Kart Wii\n\n<color=red>Mobile
+    Mod from</color>\nWark19\n\n<color=yellow>Original Credits</color>\n\n<color=yellow>Game
+    by</color>\nipodtouch0218\n\n<color=yellow>Github Contributors</color>\nGradedWarrior\nTheMoogle\nSkillz\nSkarph\nZest\nkittenchilly\nAmy54Desu\nKraken\nShadowWalker13\nPerez\nmindnomad\n\n<color=yellow>Music</color>\nRENREN\n\n<color=yellow>QA
     Testing</color>\nTheCyVap\nShadow_Walker13\n\n<color=yellow>Level Design</color>\nSkarph\nTheCyVap\nmindnomad\n\n<color=yellow>Original
     Game / Resources</color>\nNew Super Mario Bros.\nNew Super Mario Bros. Wii\nSuper
     Mario Maker 2\n(c) Nintendo\n\n<color=yellow>Asset Rippers</color>\nDemon2Warrior
