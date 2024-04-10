@@ -10,8 +10,13 @@ All power-ups are included and remain faithful to their original counterparts, a
 ## Download
 
 [Play now in browser on itch.io!](https://ipodtouch0218.itch.io/nsmb-mariovsluigi)
+That umm... is the original uhmm try this one!
+https://arianlust.itch.io/nslb-moddimationvslust
 
 Windows, Linux, and Mac Builds: https://github.com/ipodtouch0218/NSMB-MarioVsLuigi/releases/latest
+That's again... the original
+https://github.com/arianlust/NSLB-ModdimationVSLust/releases/latest
+here... the modded one
 
 ## Default Controls
 | Action | Keyboard | Gamepad *(unstable)* |
