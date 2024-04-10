@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colors:
   - player: {fileID: 0}
-    hatColor: {r: 1, g: 0.60447556, b: 0, a: 1}
-    overallsColor: {r: 0.5377358, g: 0.031631522, b: 0, a: 1}
+    hatColor: {r: 0.67058825, g: 0.003921569, b: 0.6509804, a: 1}
+    overallsColor: {r: 0.03801684, g: 0, b: 0.4528302, a: 1}
