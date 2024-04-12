@@ -34373,6 +34373,7 @@ MonoBehaviour:
   - {fileID: 927866350}
   - {fileID: 1215474819}
   - {fileID: 1774958591}
+  - {fileID: 927866350}
   sliderText: {fileID: 1514315584}
   lobbyText: {fileID: 465989235}
   currentMaxPlayers: {fileID: 1732849129}
@@ -34463,6 +34464,7 @@ MonoBehaviour:
   - '[C] Volcano'
   - '[C] Bonus'
   - '[C] Desert'
+  - '[C] Old Volcano'
   debugMaps: []
   colorManager: {fileID: 1983555074}
 --- !u!4 &887693662
