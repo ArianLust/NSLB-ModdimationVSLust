@@ -48,11 +48,11 @@ here... the modded one
 <details>
   <summary><h2>Credits</h2></summary>
 
-<color=red>Mod by</color>
+### Mod by
 Lust
 Moddimation
 
-<color=red>Mod Playtesters</color>
+### Mod Playtesters
 n_and_doll_lover
 scrap (peter)/the groat
 Mr.Fine
@@ -62,7 +62,7 @@ JorteroXD
 Jusyoniox
 nakikot
 
-<color=red>Assets for Mod from</color>
+### Assets for Mod from
 Super Mario World
 Super Mario 3D World
 Mario Kart Wii
@@ -70,71 +70,60 @@ Super Mario Bros. Wonder
 New Super Mario Bros. 
 Newer Super Mario Bros. DS
 
-<color=red>Mobile Mod from</color>
+### Mobile Mod from 
 Wark19
 
-<color=yellow>Original Credits</color>
+### Original Credits
 
-<color=yellow>Game by</color>
-ipodtouch0218
+### Contributors:
+* [@ipodtouch0218](https://github.com/ipodtouch0218)
+* @GradedWarrior
+* [@TheMoogle](https://github.com/TheMoogle)
+* [@Skillz](https://github.com/Skillz808)
+* [@skarph](https://github.com/skarph)
+* [@Zest](https://github.com/zestydevy)
+* [@kittenchilly](https://github.com/kittenchilly)
+* [@Amy54Desu](https://github.com/Amy54Desu)
+* [@Kraken](https://github.com/KrakHub)
+* [@ShadowWalker13](https://github.com/ShadowWalker13)
+* [@GithubSPerez](https://github.com/GithubSPerez)
+* [@mindnomad](https://github.com/mindnomad)
 
-<color=yellow>Github Contributors</color>
-GradedWarrior
-TheMoogle
-Skillz
-Skarph
-Zest
-kittenchilly
-Amy54Desu
-Kraken
-ShadowWalker13
-Perez
-mindnomad
+### Music:
+* [RENREN](https://mistajub.bandcamp.com/)
 
-<color=yellow>Music</color>
-RENREN
-
-<color=yellow>QA Testing</color>
-TheCyVap
-Shadow_Walker13
-
-<color=yellow>Level Design</color>
-Skarph
-TheCyVap
-mindnomad
-
-<color=yellow>Original Game / Resources</color>
-New Super Mario Bros.
-New Super Mario Bros. Wii
-Super Mario Maker 2
-(c) Nintendo
-
-<color=yellow>Asset Rippers</color>
-Demon2Warrior (Background)
-VentureSonic (Background)
-Keira (Background)
-Ohthatguy (Background)
-Poudink (Tiles)
-Someone (Tiles)
-Hiccup (Tiles)
-Jouv (Tiles)
-Mr-SUGOI (Tiles)
-mindnomad (Tiles/Sound)
-
-Symbolcom (Enemies)
-Mr. C (Enemies)
-Ragey (Enemies)
-Techokami (Enemies)
-
-A Refracted Swindler (UI)
-Treeki (UI)
-
-Double S (Models)
-KartMakerBrosU (Models)
-TeridaxXD001 (Models)
-Skarph (Models/Sound)
-LukeWarnut (Sound)
-Luke Hackett (Sound)
-mindnomad (Sound)
+### QA Testing:
+* TheCyVap
+* Shadow_Walker13
+  
+### Level Design:
+* Skarph
+* TheCyVap
+* mindnomad
+ 
+### Rippers:
+  
+* Demon2Warrior (Background)
+* VentureSonic (Background)
+* Keira (Background)
+* Ohthatguy (Background)
+* Poudink (Tiles)
+* Someone (Tiles)
+* Hiccup (Tiles)
+* Jouv (Tiles)
+* Mr-SUGOI (Tiles)
+* mindnomad (Tiles/Sound)
+* Symbolcom (Enemies)
+* Mr. C (Enemies)
+* Ragey (Enemies)
+* Technokami (Enemies)
+* A Refracted Swindler (UI)
+* Treeki (UI)
+* Double S (Models)
+* KartMakerBrosU (Models)
+* TeridaxXDOO1 (Models)
+* Skarph (Models/Sound)
+* LukeWarnut (Sound)
+* Luke Hackett (Sound)
  
 </details>
