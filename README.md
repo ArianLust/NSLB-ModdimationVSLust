@@ -6,6 +6,7 @@ All power-ups are included and remain faithful to their original counterparts, a
 
 ## Discord
 [**Join the discord**](https://discord.gg/dgKVaUKpj5) to keep up to date with the development of the game, make feature suggestions, report bugs (if you're too lazy to use issues...), get technical support, look for people to play with, and just talk about the game!
+THAT is if you want information for the OG PC Remake, if you want infos for this Mod join the Unofficial NSMB - Mario VS Luigi Discord Server: https://discord.gg/9PHVeWDMu9
 
 ## Download
 
@@ -37,8 +38,8 @@ here... the modded one
 2. Download and install [git](https://git-scm.com/downloads). Do NOT use the .zip download, as it will cause errors within Unity.
 3. Open Command Prompt (Windows) or Terminal (MacOS / Linux)
 4. Navigate to the folder you want the source code to be in using `cd <path>`. For example, `cd %USERPROFILE%\Documents` will save it in My Documents.
-5. Clone the repository by running `git clone https://github.com/ipodtouch0218/NSMB-MarioVsLuigi.git` in the Command Prompt / Terminal
-  - Optionally, [fork the repository](https://github.com/ipodtouch0218/NSMB-MarioVsLuigi/fork)
+5. Clone the repository by running `git clone https://github.com/ArianLust/NSLB-ModdimationVSLust.git` in the Command Prompt / Terminal
+  - Optionally, [fork the repository](https://github.com/ArianLust/NSLB-ModdimationVSLust/fork)
 6. Open the project in Unity Hub (gray "Open" button in top right)
 7. Change the Unity Editor to use your computer's platform in File > Build Settings
 8. Create a build using "Build and Run" inside File > Build Settings, or Ctrl+B
@@ -47,60 +48,93 @@ here... the modded one
 <details>
   <summary><h2>Credits</h2></summary>
 
-### Original Content:
-* New Super Mario Bros.
-* New Super Mario Bros. Wii
-* Super Mario Maker 2
+<color=red>Mod by</color>
+Lust
+Moddimation
 
-### Contributors:
-* [@ipodtouch0218](https://github.com/ipodtouch0218)
-* @GradedWarrior
-* [@TheMoogle](https://github.com/TheMoogle)
-* [@Skillz](https://github.com/Skillz808)
-* [@skarph](https://github.com/skarph)
-* [@Zest](https://github.com/zestydevy)
-* [@kittenchilly](https://github.com/kittenchilly)
-* [@Amy54Desu](https://github.com/Amy54Desu)
-* [@Kraken](https://github.com/KrakHub)
-* [@ShadowWalker13](https://github.com/ShadowWalker13)
-* [@GithubSPerez](https://github.com/GithubSPerez)
-* [@mindnomad](https://github.com/mindnomad)
+<color=red>Mod Playtesters</color>
+n_and_doll_lover
+scrap (peter)/the groat
+Mr.Fine
+The Yoshi Plush Show
+Bloop
+JorteroXD
+Jusyoniox
+nakikot
 
-### Music:
-* [RENREN](https://mistajub.bandcamp.com/)
+<color=red>Assets for Mod from</color>
+Super Mario World
+Super Mario 3D World
+Mario Kart Wii
+Super Mario Bros. Wonder
+New Super Mario Bros. 
+Newer Super Mario Bros. DS
 
-### QA Testing:
-* TheCyVap
-* Shadow_Walker13
-  
-### Level Design:
-* Skarph
-* TheCyVap
-* mindnomad
+<color=red>Mobile Mod from</color>
+Wark19
+
+<color=yellow>Original Credits</color>
+
+<color=yellow>Game by</color>
+ipodtouch0218
+
+<color=yellow>Github Contributors</color>
+GradedWarrior
+TheMoogle
+Skillz
+Skarph
+Zest
+kittenchilly
+Amy54Desu
+Kraken
+ShadowWalker13
+Perez
+mindnomad
+
+<color=yellow>Music</color>
+RENREN
+
+<color=yellow>QA Testing</color>
+TheCyVap
+Shadow_Walker13
+
+<color=yellow>Level Design</color>
+Skarph
+TheCyVap
+mindnomad
+
+<color=yellow>Original Game / Resources</color>
+New Super Mario Bros.
+New Super Mario Bros. Wii
+Super Mario Maker 2
+(c) Nintendo
+
+<color=yellow>Asset Rippers</color>
+Demon2Warrior (Background)
+VentureSonic (Background)
+Keira (Background)
+Ohthatguy (Background)
+Poudink (Tiles)
+Someone (Tiles)
+Hiccup (Tiles)
+Jouv (Tiles)
+Mr-SUGOI (Tiles)
+mindnomad (Tiles/Sound)
+
+Symbolcom (Enemies)
+Mr. C (Enemies)
+Ragey (Enemies)
+Techokami (Enemies)
+
+A Refracted Swindler (UI)
+Treeki (UI)
+
+Double S (Models)
+KartMakerBrosU (Models)
+TeridaxXD001 (Models)
+Skarph (Models/Sound)
+LukeWarnut (Sound)
+Luke Hackett (Sound)
+mindnomad (Sound)
  
-### Rippers:
-  
-* Demon2Warrior (Background)
-* VentureSonic (Background)
-* Keira (Background)
-* Ohthatguy (Background)
-* Poudink (Tiles)
-* Someone (Tiles)
-* Hiccup (Tiles)
-* Jouv (Tiles)
-* Mr-SUGOI (Tiles)
-* mindnomad (Tiles/Sound)
-* Symbolcom (Enemies)
-* Mr. C (Enemies)
-* Ragey (Enemies)
-* Technokami (Enemies)
-* A Refracted Swindler (UI)
-* Treeki (UI)
-* Double S (Models)
-* KartMakerBrosU (Models)
-* TeridaxXDOO1 (Models)
-* Skarph (Models/Sound)
-* LukeWarnut (Sound)
-* Luke Hackett (Sound)
-
 </details>
