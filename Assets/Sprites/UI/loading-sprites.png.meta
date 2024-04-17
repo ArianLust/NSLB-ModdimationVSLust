@@ -361,7 +361,7 @@ TextureImporter:
       name: loading-sprites_10
       rect:
         serializedVersion: 2
-        x: 176
+        x: 160
         y: 0
         width: 16
         height: 32
@@ -382,9 +382,9 @@ TextureImporter:
       name: loading-sprites_9
       rect:
         serializedVersion: 2
-        x: 157
+        x: 144
         y: 0
-        width: 19
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
