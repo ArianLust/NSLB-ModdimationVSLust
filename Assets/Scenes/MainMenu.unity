@@ -795,8 +795,6 @@ MonoBehaviour:
     - m_Text: Luigi
       m_Image: {fileID: -7975249404588759376, guid: 70672da71d9d71a4daaf5f3fc58531e6,
         type: 3}
-    - m_Text: Waluigi
-      m_Image: {fileID: -1803820175, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -46787,8 +46785,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 47220571}
   m_HandleRect: {fileID: 47220570}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.74703866
+  m_Value: 1.0000005
+  m_Size: 0.7468744
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
