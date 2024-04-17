@@ -408,12 +408,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 39fa1c43f6fc95646a610f32195cfb80, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ec7ab5189fe47fa438e57febc28b1041, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.8352941}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 2
-  m_Size: {x: 5.12, y: 1}
+  m_DrawMode: 1
+  m_Size: {x: 2.52, y: 0.88}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2736,7 +2736,7 @@ Tilemap:
       - {fileID: 21300000, guid: 7cd7b4df99407e740abe83cf41a8fe1a, type: 3}
       - {fileID: 21300000, guid: 71222d57d7804434ea0ebb0869b6e603, type: 3}
       - {fileID: 21300000, guid: ed80bb3572c7ad14293380c68cfcbc56, type: 3}
-      m_AnimationSpeed: 8
+      m_AnimationSpeed: 4
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -37, y: -6, z: 0}
@@ -2752,7 +2752,7 @@ Tilemap:
       - {fileID: 21300000, guid: 7cd7b4df99407e740abe83cf41a8fe1a, type: 3}
       - {fileID: 21300000, guid: 71222d57d7804434ea0ebb0869b6e603, type: 3}
       - {fileID: 21300000, guid: ed80bb3572c7ad14293380c68cfcbc56, type: 3}
-      m_AnimationSpeed: 8
+      m_AnimationSpeed: 4
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -35, y: -6, z: 0}
@@ -2768,7 +2768,7 @@ Tilemap:
       - {fileID: 21300000, guid: 7cd7b4df99407e740abe83cf41a8fe1a, type: 3}
       - {fileID: 21300000, guid: 71222d57d7804434ea0ebb0869b6e603, type: 3}
       - {fileID: 21300000, guid: ed80bb3572c7ad14293380c68cfcbc56, type: 3}
-      m_AnimationSpeed: 8
+      m_AnimationSpeed: 4
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -33, y: -6, z: 0}
@@ -2805,7 +2805,7 @@ Tilemap:
       - {fileID: 21300000, guid: 7cd7b4df99407e740abe83cf41a8fe1a, type: 3}
       - {fileID: 21300000, guid: 71222d57d7804434ea0ebb0869b6e603, type: 3}
       - {fileID: 21300000, guid: ed80bb3572c7ad14293380c68cfcbc56, type: 3}
-      m_AnimationSpeed: 8
+      m_AnimationSpeed: 4
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -9, y: -6, z: 0}
@@ -2849,7 +2849,7 @@ Tilemap:
       - {fileID: 21300000, guid: 7cd7b4df99407e740abe83cf41a8fe1a, type: 3}
       - {fileID: 21300000, guid: 71222d57d7804434ea0ebb0869b6e603, type: 3}
       - {fileID: 21300000, guid: ed80bb3572c7ad14293380c68cfcbc56, type: 3}
-      m_AnimationSpeed: 8
+      m_AnimationSpeed: 4
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -8, y: -2, z: 0}
@@ -4217,7 +4217,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 39fa1c43f6fc95646a610f32195cfb80, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ec7ab5189fe47fa438e57febc28b1041, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.27058825}
   m_FlipX: 0
   m_FlipY: 0
@@ -4413,12 +4413,12 @@ SpriteRenderer:
   m_SortingLayerID: -1013106893
   m_SortingLayer: -1
   m_SortingOrder: -2
-  m_Sprite: {fileID: -1417272916, guid: 43ab0f5c9dbc1514ead6fa7a1cb07f02, type: 3}
+  m_Sprite: {fileID: -1417272916, guid: a54fc34668240e245ba97585c468bf51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
-  m_Size: {x: 2.56, y: 3.62}
+  m_Size: {x: 2.56, y: 4.1854258}
   m_AdaptiveModeThreshold: 0.205
   m_SpriteTileMode: 1
   m_WasSpriteAssigned: 1
@@ -4432,7 +4432,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831778352}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.5, z: 30}
+  m_LocalPosition: {x: 0, y: 2.6519, z: 30}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4559,12 +4559,12 @@ SpriteRenderer:
   m_SortingLayerID: -1013106893
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1679110163, guid: 43ab0f5c9dbc1514ead6fa7a1cb07f02, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 878add957e697704e8724b4e79e0fd7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 5.12, y: 1.27}
+  m_Size: {x: 2.56, y: 1.27}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 1
   m_WasSpriteAssigned: 1
@@ -4578,7 +4578,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959336204}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.85, z: 20}
+  m_LocalPosition: {x: 0.09, y: -0.97, z: 20}
   m_LocalScale: {x: 3, y: 3, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
