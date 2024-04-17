@@ -3337,9 +3337,11 @@ MonoBehaviour:
   m_text: "<color=red>Mod by</color>\nLust\nModdimation\n\n<color=red>Mod Playtesters</color>\nn_and_doll_lover\nscrap
     (peter)/the groat\nMr.Fine\nThe Yoshi Plush Show\nBloop\nJorteroXD\nJusyoniox\nnakikot\n\n<color=red>Assets
     for Mod from</color>\nSuper Mario World\nSuper Mario 3D World\nMario Kart Wii\nSuper
-    Mario Bros. Wonder\nNew Super Mario Bros. \nNewer Super Mario Bros. DS\n\n<color=red>Mobile
-    Mod from</color>\nWark19\n\n<color=yellow>Original Credits</color>\n\n<color=yellow>Game
-    by</color>\nipodtouch0218\n\n<color=yellow>Github Contributors</color>\nGradedWarrior\nTheMoogle\nSkillz\nSkarph\nZest\nkittenchilly\nAmy54Desu\nKraken\nShadowWalker13\nPerez\nmindnomad\n\n<color=yellow>Music</color>\nRENREN\n\n<color=yellow>QA
+    Mario Bros. Wonder\nNew Super Mario Bros. \nNewer Super Mario Bros. DS\nSuper
+    Mario Bros.\n\n<color=red>Custom Music Remixes</color>\nTater-Tot Tunes (SMB
+    Overworld, Starman)\n\n<color=red>Mobile Mod from</color>\nWark19\n\n<color=yellow>Original
+    Credits</color>\n\n<color=yellow>Game by</color>\nipodtouch0218\n\n<color=yellow>Github
+    Contributors</color>\nGradedWarrior\nTheMoogle\nSkillz\nSkarph\nZest\nkittenchilly\nAmy54Desu\nKraken\nShadowWalker13\nPerez\nmindnomad\n\n<color=yellow>Music</color>\nRENREN\n\n<color=yellow>QA
     Testing</color>\nTheCyVap\nShadow_Walker13\n\n<color=yellow>Level Design</color>\nSkarph\nTheCyVap\nmindnomad\n\n<color=yellow>Original
     Game / Resources</color>\nNew Super Mario Bros.\nNew Super Mario Bros. Wii\nSuper
     Mario Maker 2\n(c) Nintendo\n\n<color=yellow>Asset Rippers</color>\nDemon2Warrior
@@ -89915,6 +89917,7 @@ GameObject:
   - component: {fileID: 1860640960}
   - component: {fileID: 1860640962}
   - component: {fileID: 1860640961}
+  - component: {fileID: 1860640963}
   m_Layer: 5
   m_Name: ContinuePrompt
   m_TagString: Untagged
@@ -90039,6 +90042,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860640959}
   m_CullTransparentMesh: 1
+--- !u!111 &1860640963
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860640959}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 7a3314f77c3aa20449991d4931f21d94, type: 2}
+  m_Animations:
+  - {fileID: 0}
+  - {fileID: 7400000, guid: 7a3314f77c3aa20449991d4931f21d94, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1865114078
 GameObject:
   m_ObjectHideFlags: 0
