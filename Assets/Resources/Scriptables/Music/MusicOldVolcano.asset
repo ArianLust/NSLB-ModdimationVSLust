@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: MusicOldVolcano
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: cd72e591b8f4a484d8435b0e3ea75113, type: 3}
-  fastClip: {fileID: 8300000, guid: 623477c24937ed4408eb5323eac58ea8, type: 3}
-  loopStartSample: 2.987
-  loopEndSample: 80.025
+  fastClip: {fileID: 8300000, guid: 62e26cd492fa33849a068ec8abb7bd84, type: 3}
+  loopStartSample: 6.79
+  loopEndSample: 65.076
