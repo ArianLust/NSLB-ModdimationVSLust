@@ -19,3 +19,6 @@ MonoBehaviour:
   - player: {fileID: 11400000, guid: 083779ae7bd92ab4295d580d757b328e, type: 2}
     hatColor: {r: 0.91372555, g: 0, b: 0, a: 1}
     overallsColor: {r: 0.023529408, g: 0.2540294, b: 0.56078434, a: 1}
+  - player: {fileID: 11400000, guid: 7deb380a54e067648b6eb7243094627f, type: 2}
+    hatColor: {r: 1, g: 0.94832873, b: 0, a: 1}
+    overallsColor: {r: 0.56078434, g: 0.04705883, b: 0.5176471, a: 1}
