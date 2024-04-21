@@ -790,9 +790,11 @@ MonoBehaviour:
   m_Options:
     m_Options:
     - m_Text: Mario
-      m_Image: {fileID: 0}
+      m_Image: {fileID: 7263181891274304025, guid: 70672da71d9d71a4daaf5f3fc58531e6,
+        type: 3}
     - m_Text: Luigi
-      m_Image: {fileID: 0}
+      m_Image: {fileID: -7975249404588759376, guid: 70672da71d9d71a4daaf5f3fc58531e6,
+        type: 3}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -3337,9 +3339,11 @@ MonoBehaviour:
   m_text: "<color=red>Mod by</color>\nLust\nModdimation\n\n<color=red>Mod Playtesters</color>\nn_and_doll_lover\nscrap
     (peter)/the groat\nMr.Fine\nThe Yoshi Plush Show\nBloop\nJorteroXD\nJusyoniox\nnakikot\n\n<color=red>Assets
     for Mod from</color>\nSuper Mario World\nSuper Mario 3D World\nMario Kart Wii\nSuper
-    Mario Bros. Wonder\nNew Super Mario Bros. \nNewer Super Mario Bros. DS\n\n<color=red>Mobile
-    Mod from</color>\nWark19\n\n<color=yellow>Original Credits</color>\n\n<color=yellow>Game
-    by</color>\nipodtouch0218\n\n<color=yellow>Github Contributors</color>\nGradedWarrior\nTheMoogle\nSkillz\nSkarph\nZest\nkittenchilly\nAmy54Desu\nKraken\nShadowWalker13\nPerez\nmindnomad\n\n<color=yellow>Music</color>\nRENREN\n\n<color=yellow>QA
+    Mario Bros. Wonder\nNew Super Mario Bros. \nNewer Super Mario Bros. DS\nSuper
+    Mario Bros.\n\n<color=red>Custom Music Remixes</color>\nTater-Tot Tunes (SMB
+    Overworld, Starman)\n\n<color=red>Mobile Mod from</color>\nWark19\n\n<color=yellow>Original
+    Credits</color>\n\n<color=yellow>Game by</color>\nipodtouch0218\n\n<color=yellow>Github
+    Contributors</color>\nGradedWarrior\nTheMoogle\nSkillz\nSkarph\nZest\nkittenchilly\nAmy54Desu\nKraken\nShadowWalker13\nPerez\nmindnomad\n\n<color=yellow>Music</color>\nRENREN\n\n<color=yellow>QA
     Testing</color>\nTheCyVap\nShadow_Walker13\n\n<color=yellow>Level Design</color>\nSkarph\nTheCyVap\nmindnomad\n\n<color=yellow>Original
     Game / Resources</color>\nNew Super Mario Bros.\nNew Super Mario Bros. Wii\nSuper
     Mario Maker 2\n(c) Nintendo\n\n<color=yellow>Asset Rippers</color>\nDemon2Warrior
@@ -34361,7 +34365,7 @@ MonoBehaviour:
   creditsMenu: {fileID: 1386786002}
   controlsMenu: {fileID: 1325357895}
   privatePrompt: {fileID: 986802541}
-  updateBox: {fileID: 0}
+  updateBox: {fileID: 2127289169}
   levelCameraPositions:
   - {fileID: 1477183160}
   - {fileID: 978599145}
@@ -34374,6 +34378,7 @@ MonoBehaviour:
   - {fileID: 1215474819}
   - {fileID: 1774958591}
   - {fileID: 927866350}
+  - {fileID: 1477183160}
   sliderText: {fileID: 1514315584}
   lobbyText: {fileID: 465989235}
   currentMaxPlayers: {fileID: 1732849129}
@@ -34465,6 +34470,7 @@ MonoBehaviour:
   - '[C] Bonus'
   - '[C] Desert'
   - '[C] Old Volcano'
+  - '[C] Retro'
   debugMaps: []
   colorManager: {fileID: 1983555074}
 --- !u!4 &887693662
@@ -50447,7 +50453,7 @@ MonoBehaviour:
   m_CellSize: {x: 32, y: 32}
   m_Spacing: {x: 8, y: 8}
   m_Constraint: 1
-  m_ConstraintCount: 4
+  m_ConstraintCount: 7
 --- !u!223 &1472937425
 Canvas:
   m_ObjectHideFlags: 0
@@ -81506,7 +81512,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000030517578}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1603668786
@@ -89503,7 +89509,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1141870934}
   m_HandleRect: {fileID: 1141870933}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -89913,6 +89919,7 @@ GameObject:
   - component: {fileID: 1860640960}
   - component: {fileID: 1860640962}
   - component: {fileID: 1860640961}
+  - component: {fileID: 1860640963}
   m_Layer: 5
   m_Name: ContinuePrompt
   m_TagString: Untagged
@@ -90037,6 +90044,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860640959}
   m_CullTransparentMesh: 1
+--- !u!111 &1860640963
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860640959}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 7a3314f77c3aa20449991d4931f21d94, type: 2}
+  m_Animations:
+  - {fileID: 0}
+  - {fileID: 7400000, guid: 7a3314f77c3aa20449991d4931f21d94, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1865114078
 GameObject:
   m_ObjectHideFlags: 0
