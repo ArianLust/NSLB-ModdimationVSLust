@@ -795,8 +795,6 @@ MonoBehaviour:
     - m_Text: Luigi
       m_Image: {fileID: -7975249404588759376, guid: 70672da71d9d71a4daaf5f3fc58531e6,
         type: 3}
-    - m_Text: Waluigi
-      m_Image: {fileID: -1803820175, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
