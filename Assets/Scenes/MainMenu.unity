@@ -3336,8 +3336,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<color=red>Mod by</color>\nLust\nModdimation\n\n<color=red>Mod Playtesters</color>\nn_and_doll_lover\nscrap
-    (peter)/the groat\nMr.Fine\nThe Yoshi Plush Show\nBloop\nJorteroXD\nJusyoniox\nnakikot\n\n<color=red>Assets
+  m_text: "<color=red>Mod by</color>\nLust\nModdimation\n\n<color=red>Logo by</color>\nMrYoshiNL\n\n<color=red>Mod
+    Playtesters</color>\nn_and_doll_lover\nscrap (peter)/the groat\nMr.Fine\nThe
+    Yoshi Plush Show\nBloop\nJorteroXD\nJusyoniox\nnakikot\nMrYoshiNL\n\n<color=red>Assets
     for Mod from</color>\nSuper Mario World\nSuper Mario 3D World\nMario Kart Wii\nSuper
     Mario Bros. Wonder\nNew Super Mario Bros. \nNewer Super Mario Bros. DS\nSuper
     Mario Bros.\n\n<color=red>Custom Music Remixes</color>\nTater-Tot Tunes (SMB
@@ -20034,7 +20035,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 187b7e4ac64863a4cbc356e522b0a5b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff96f2d0ef831ad4f9c827532f408082, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
