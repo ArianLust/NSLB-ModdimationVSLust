@@ -795,6 +795,8 @@ MonoBehaviour:
     - m_Text: Luigi
       m_Image: {fileID: -7975249404588759376, guid: 70672da71d9d71a4daaf5f3fc58531e6,
         type: 3}
+    - m_Text: Waluigi
+      m_Image: {fileID: -1803820175, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -3341,8 +3343,8 @@ MonoBehaviour:
     Yoshi Plush Show\nBloop\nJorteroXD\nJusyoniox\nnakikot\nMrYoshiNL\n\n<color=red>Assets
     for Mod from</color>\nSuper Mario World\nSuper Mario 3D World\nMario Kart Wii\nSuper
     Mario Bros. Wonder\nNew Super Mario Bros. \nNewer Super Mario Bros. DS\nSuper
-    Mario Bros.\n\n<color=red>Custom Music Remixes</color>\nTater-Tot Tunes (SMB
-    Overworld, Starman)\n\n<color=red>Mobile Mod from</color>\nWark19\n\n<color=yellow>Original
+    Mario Bros.\nvic's Custom Match-inator\n\n<color=red>Custom Music Remixes</color>\nTater-Tot
+    Tunes (SMB Overworld, Starman)\n\n<color=red>Mobile Mod from</color>\nWark19\n\n<color=yellow>Original
     Credits</color>\n\n<color=yellow>Game by</color>\nipodtouch0218\n\n<color=yellow>Github
     Contributors</color>\nGradedWarrior\nTheMoogle\nSkillz\nSkarph\nZest\nkittenchilly\nAmy54Desu\nKraken\nShadowWalker13\nPerez\nmindnomad\n\n<color=yellow>Music</color>\nRENREN\n\n<color=yellow>QA
     Testing</color>\nTheCyVap\nShadow_Walker13\n\n<color=yellow>Level Design</color>\nSkarph\nTheCyVap\nmindnomad\n\n<color=yellow>Original
