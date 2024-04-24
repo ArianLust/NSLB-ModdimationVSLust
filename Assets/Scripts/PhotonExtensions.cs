@@ -13,7 +13,7 @@ public static class PhotonExtensions {
         ["778543884795a152b54d3d158a3f6f6f7f16e46e81a7f4ddbc54a4ee054b0820"] = "Moddimation",
         ["8dfd75acdb7a7f68d58f270a689fd1ea2b04745c0b2c06e8da983b5de4019e7d"] = "notModdimation",
         ["4b4352dcb5222a0d206a7065eff1deb87db17f7de5a3e83ee2b534811496e4f4"] = "VibriIsHot",
-        ["7090d5d86aca51be27bd9840687fd0587b7b00b996638e76101f73b57484331e"] = "NandDollLover",
+        ["9ba2e0c6443169fcb9c3defcf91b98ecf50210a2f4fa1cc2858dedd401150473"] = "NandDollLover",
         ["2fc21940d1fa408fe52bf16ce5a904481606b887a3ee4d3a5b84bc207bd5d41d"] = "MrYoshiNL",
     };
 
