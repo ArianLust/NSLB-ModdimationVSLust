@@ -30,8 +30,6 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
         }
         private set => _instance = value;
     }
-    public string[] musicList;
-    public MusicData mainMusicDefault;
     public MusicData invincibleMusic, megaMushroomMusic;
     [HideInInspector] public MusicData mainMusic;
 
@@ -425,10 +423,9 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
         loopMusic = GetComponent<LoopingMusic>();
         coins = GameObject.FindGameObjectsWithTag("coin");
         levelUIColor.a = .7f;
+        mainMusic = GetComponent<MusicRandomizer>().GetMusic();
 
         InputSystem.controls.LoadBindingOverridesFromJson(GlobalController.Instance.controlsJson);
-
-        SetMusic();
 
         //Spawning in editor??
         if (!PhotonNetwork.IsConnectedAndReady) {
@@ -464,39 +461,6 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
         }
 
         brickBreak = ((GameObject) Instantiate(Resources.Load("Prefabs/Particle/BrickBreak"))).GetComponent<ParticleSystem>();
-    }
-    public void SetMusic() {
-
-        if(musicList == null || musicList.Length < 1) //array empty, choosing default
-            mainMusic = mainMusicDefault;
-
-        else if(musicList.Length == 1) //only one entry in array
-            mainMusic = LoadMusic(musicList[0]);
-
-        else {
-            int randMusicId = Random.Range(0, musicList.Length-1);
-            mainMusic = LoadMusic(musicList[randMusicId]);
-        }
-
-        if(mainMusic == null) {
-            Debug.Log("ERROR: Music could not be loaded! Trying default...");
-            mainMusic = mainMusicDefault;
-        }
-    }
-    private MusicData LoadMusic(string name){
-        string path = "Scriptables/Music/Music";
-        string fileName = path+name;
-
-        //load from resources folder
-        MusicData loadedMusic = Resources.Load(fileName) as MusicData;
-
-        //check loader null
-        if(loadedMusic == null) {
-            Debug.Log("ERROR: Music"+name+" doesnt exist! Path: Resources/"+fileName);
-            return mainMusicDefault;
-        }
-
-        return loadedMusic;
     }
 
     private void CheckIfAllLoaded() {

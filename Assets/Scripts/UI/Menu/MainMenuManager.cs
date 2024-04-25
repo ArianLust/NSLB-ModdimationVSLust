@@ -415,6 +415,8 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
 
         Instance = this;
 
+        GetComponent<LoopingMusic>().Play( GetComponent<MusicRandomizer>().GetMusic() );
+
         //Clear game-specific settings so they don't carry over
         HorizontalCamera.OFFSET_TARGET = 0;
         HorizontalCamera.OFFSET = 0;

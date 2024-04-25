@@ -34319,6 +34319,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 887693662}
+  - component: {fileID: 887693668}
   - component: {fileID: 887693661}
   - component: {fileID: 887693665}
   - component: {fileID: 887693658}
@@ -34633,7 +34634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 887693667}
-  currentSong: {fileID: 11400000, guid: fe75b1974602544419c350e6c2b9ac93, type: 2}
+  currentSong: {fileID: 0}
 --- !u!82 &887693667
 AudioSource:
   m_ObjectHideFlags: 0
@@ -34731,6 +34732,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &887693668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887693657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d180f306972b424daddccb99eb860db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicList:
+  - MainMenu
+  musicDefault: {fileID: 11400000, guid: fe75b1974602544419c350e6c2b9ac93, type: 2}
 --- !u!1 &891192737
 GameObject:
   m_ObjectHideFlags: 0
@@ -46885,8 +46901,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 47220571}
   m_HandleRect: {fileID: 47220570}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.74703866
+  m_Value: 0.99999976
+  m_Size: 0.7466508
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
