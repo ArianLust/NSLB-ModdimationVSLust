@@ -474,7 +474,7 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
             mainMusic = LoadMusic(musicList[0]);
 
         else {
-            int randMusicId = Random.Range(0, musicList.Length-1);
+            int randMusicId = Random.Range(0, musicList.Length);
             mainMusic = LoadMusic(musicList[randMusicId]);
         }
 
