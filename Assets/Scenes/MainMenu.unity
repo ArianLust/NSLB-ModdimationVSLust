@@ -34745,7 +34745,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicList:
-  - MainMenu
+  - MainMenuA
+  - MainMenuB
+  - MainMenuC
+  - MainMenuD
+  - MainMenuE
+  - MainMenuF
+  - MainMenuG
+  - MainMenuH
   musicDefault: {fileID: 11400000, guid: fe75b1974602544419c350e6c2b9ac93, type: 2}
 --- !u!1 &891192737
 GameObject:

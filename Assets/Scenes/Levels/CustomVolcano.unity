@@ -22584,6 +22584,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5512989389984804167, guid: 43d56bd18d06e9b4abe323618a20a228,
+        type: 3}
+      propertyPath: musicList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512989389984804167, guid: 43d56bd18d06e9b4abe323618a20a228,
+        type: 3}
+      propertyPath: musicList.Array.data[0]
+      value: Volcano
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512989389984804167, guid: 43d56bd18d06e9b4abe323618a20a228,
+        type: 3}
+      propertyPath: musicList.Array.data[1]
+      value: OldVolcano
+      objectReference: {fileID: 0}
     - target: {fileID: 6161724238288570319, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
       propertyPath: m_Enabled
