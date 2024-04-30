@@ -30,8 +30,8 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
         }
         private set => _instance = value;
     }
-
-    public MusicData mainMusic, invincibleMusic, megaMushroomMusic;
+    public MusicData invincibleMusic, megaMushroomMusic;
+    [HideInInspector] public MusicData mainMusic;
 
     public int levelMinTileX, levelMinTileY, levelWidthTile, levelHeightTile;
     public float cameraMinY, cameraHeightY, cameraMinX = -1000, cameraMaxX = 1000;
@@ -423,6 +423,7 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
         loopMusic = GetComponent<LoopingMusic>();
         coins = GameObject.FindGameObjectsWithTag("coin");
         levelUIColor.a = .7f;
+        mainMusic = GetComponent<MusicRandomizer>().GetMusic();
 
         InputSystem.controls.LoadBindingOverridesFromJson(GlobalController.Instance.controlsJson);
 

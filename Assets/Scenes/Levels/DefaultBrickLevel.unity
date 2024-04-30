@@ -4619,7 +4619,7 @@ PrefabInstance:
     - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
       propertyPath: richPresenceId
-      value: brick
+      value: bricks
       objectReference: {fileID: 0}
     - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
@@ -4695,6 +4695,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512989389984804167, guid: 43d56bd18d06e9b4abe323618a20a228,
+        type: 3}
+      propertyPath: musicList.Array.data[0]
+      value: Underground
       objectReference: {fileID: 0}
     - target: {fileID: 6355964096291475732, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
