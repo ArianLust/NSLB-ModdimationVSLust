@@ -133,8 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 771121258}
   - component: {fileID: 771121257}
-  - component: {fileID: 771121260}
-  - component: {fileID: 771121261}
+  - component: {fileID: 771121259}
   m_Layer: 0
   m_Name: splash
   m_TagString: Untagged
@@ -150,7 +149,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771121255}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 0ba993c0f6af6264aba2d4848794d070, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 0a91cff03dba6af488996e55ce51d28b, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1256697255}
@@ -192,7 +191,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &771121260
+--- !u!114 &771121259
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -201,25 +200,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 771121255}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09184bf4ad7bab64a9eeebba7f0504b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneNumber: 15
---- !u!114 &771121261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 771121255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db4a303a29b4c4e41bff458f9004290d, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b6a1f7a1e303154699a511b7e0bb0bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 771121257}
-  loopStartPointInSeconds: 48.43
-  loopEndPointInSeconds: 80.26
+  nextSceneName: MainMenu
 --- !u!1 &1256697253
 GameObject:
   m_ObjectHideFlags: 0
