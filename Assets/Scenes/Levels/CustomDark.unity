@@ -5023,7 +5023,7 @@ PrefabInstance:
     - target: {fileID: 5512989389984804167, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
       propertyPath: musicList.Array.data[2]
-      value: lOldVolcano
+      value: OldVolcano
       objectReference: {fileID: 0}
     - target: {fileID: 5512989389984804167, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
@@ -5038,7 +5038,7 @@ PrefabInstance:
     - target: {fileID: 5512989389984804167, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
       propertyPath: musicList.Array.data[5]
-      value: LevelPipes
+      value: Pipes
       objectReference: {fileID: 0}
     - target: {fileID: 5512989389984804167, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
