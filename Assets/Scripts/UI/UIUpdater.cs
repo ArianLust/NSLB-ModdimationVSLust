@@ -13,14 +13,16 @@ public class UIUpdater : MonoBehaviour {
     public GameObject playerTrackTemplate, starTrackTemplate;
     public PlayerController player;
     public Sprite storedItemNull;
-    public TMP_Text uiStars, uiCoins, uiDebug, uiLives, uiCountdown;
+    public TMP_Text uiStars, uiCoins, uiDebug, uiLives, uiCountdown, musicName;
     public Image itemReserve, itemColor;
+    public FadeOutManager musicNameFader; 
     public float pingSample = 0;
 
     private Material timerMaterial;
     private GameObject starsParent, coinsParent, livesParent, timerParent;
     private readonly List<Image> backgrounds = new();
     private bool uiHidden;
+    private bool isMusicNameFading = false;
 
     private int coins = -1, stars = -1, lives = -1, timer = -1;
 
@@ -37,6 +39,8 @@ public class UIUpdater : MonoBehaviour {
         backgrounds.Add(coinsParent.GetComponentInChildren<Image>());
         backgrounds.Add(livesParent.GetComponentInChildren<Image>());
         backgrounds.Add(timerParent.GetComponentInChildren<Image>());
+
+        musicNameFader.fadeDelaySeconds = 3;
 
         foreach (Image bg in backgrounds)
             bg.color = GameManager.Instance.levelUIColor;
@@ -66,6 +70,11 @@ public class UIUpdater : MonoBehaviour {
 
         UpdateStoredItemUI();
         UpdateTextUI();
+    }
+
+    public void SetMusicName(string name)
+    {
+        musicName.text += name;
     }
 
     private void ToggleUI(bool hidden) {
@@ -126,7 +135,16 @@ public class UIUpdater : MonoBehaviour {
                 timerMaterial.SetColor("_Color", new Color32(255, gb, gb, 255));
             }
         } else {
-            timerParent.SetActive(false);
+            if(timerParent) timerParent.SetActive(false);
+        }
+        if (musicName)
+        {
+            if (!isMusicNameFading)
+            {
+                isMusicNameFading = true;
+                musicNameFader.FadeOutAndIn(0.33f, .1f);
+                if (musicNameFader.fadeTimer < 0) Destroy(musicName.gameObject);
+            }
         }
     }
 

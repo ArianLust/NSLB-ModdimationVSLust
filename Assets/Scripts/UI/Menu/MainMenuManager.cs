@@ -25,7 +25,9 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     bool quit, validName;
     public GameObject connecting;
     public GameObject title, bg, mainMenu, optionsMenu, lobbyMenu, createLobbyPrompt, inLobbyMenu, creditsMenu, controlsMenu, privatePrompt, updateBox;
-    public GameObject[] levelCameraPositions;
+    public GameObject[] levelCameraPositions; // REMOVE
+    public List<string> levelScnNames;
+    string levelNameLast = "ERROR";
     public GameObject sliderText, lobbyText, currentMaxPlayers, settingsPanel;
     public TMP_Dropdown levelDropdown, characterDropdown;
     public RoomIcon selectedRoomIcon, privateJoinRoom;
@@ -428,7 +430,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             GlobalController.Instance.disconnectCause = null;
         }
 
-        Camera.main.transform.position = levelCameraPositions[Random.Range(0, maps.Count)].transform.position;
+        ChangeBackground(Random.Range(0, levelScnNames.Count));
         levelDropdown.AddOptions(maps);
         LoadSettings(!PhotonNetwork.InRoom);
 
@@ -837,11 +839,17 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         };
         PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
     }
+    private void ChangeBackground(int index) {
+        if(levelNameLast != "ERROR")
+            SceneManager.UnloadScene(levelNameLast);
 
+        levelNameLast = levelScnNames[index];
+        SceneManager.LoadSceneAsync(levelNameLast, LoadSceneMode.Additive);
+    }
     public void ChangeLevel(int index) {
         levelDropdown.SetValueWithoutNotify(index);
         LocalChatMessage("Map set to: " + levelDropdown.options[index].text, Color.red);
-        Camera.main.transform.position = levelCameraPositions[index].transform.position;
+        ChangeBackground(index);
     }
     public void SetLevelIndex() {
         if (!PhotonNetwork.IsMasterClient)
