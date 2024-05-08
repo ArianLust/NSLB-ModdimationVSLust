@@ -430,7 +430,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             GlobalController.Instance.disconnectCause = null;
         }
 
-        ChangeBackground(Random.Range(0, levelScnNames.Count));
+        ChangeBackgroundRandom();
         levelDropdown.AddOptions(maps);
         LoadSettings(!PhotonNetwork.InRoom);
 
@@ -839,7 +839,10 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         };
         PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
     }
-    private void ChangeBackground(int index) {
+	public void ChangeBackgroundRandom() {
+        ChangeBackground(Random.Range(0, levelScnNames.Count));
+	}
+    public void ChangeBackground(int index) {
         if (levelNameLast == "ERROR") {
             levelNameLast = levelScnNames[index];
             SceneManager.LoadSceneAsync(levelNameLast, LoadSceneMode.Additive);
@@ -850,12 +853,14 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     }
     IEnumerator WaitChangeBackground(int index)
     {
-        yield return SceneManager.LoadSceneAsync(levelScnNames[index], LoadSceneMode.Additive);
+		string levelName = index <= levelScnNames.Count ? levelScnNames[index] : levelScnNames[0];
+		//check if index is out of range
+        yield return SceneManager.LoadSceneAsync(levelName, LoadSceneMode.Additive);
         //wait for level loading
 
         //unload scene once finished loading
         yield return SceneManager.UnloadSceneAsync(levelNameLast);
-        levelNameLast = levelScnNames[index];
+        levelNameLast = levelName;
     }
     public void ChangeLevel(int index) {
         levelDropdown.SetValueWithoutNotify(index);

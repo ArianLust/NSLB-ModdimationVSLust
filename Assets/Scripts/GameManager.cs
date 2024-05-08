@@ -424,7 +424,7 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
         coins = GameObject.FindGameObjectsWithTag("coin");
         levelUIColor.a = .7f;
         mainMusic = GetComponent<MusicRandomizer>().GetMusic();
-        UIUpdater.Instance.SetMusicName(mainMusic.showName);
+        if(mainMusic) UIUpdater.Instance.SetMusicName(mainMusic.showName);
 
         InputSystem.controls.LoadBindingOverridesFromJson(GlobalController.Instance.controlsJson);
 
