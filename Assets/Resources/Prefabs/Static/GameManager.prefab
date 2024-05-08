@@ -1747,10 +1747,9 @@ MonoBehaviour:
   uiDebug: {fileID: 2156455714517579465}
   uiLives: {fileID: 4517828002499443612}
   uiCountdown: {fileID: 8006312052843805487}
-  musicName: {fileID: 1045212365118099717}
+  uiMusicName: {fileID: 1045212365118099717}
   itemReserve: {fileID: 2321423708915906539}
   itemColor: {fileID: 2568638592884976754}
-  musicNameFader: {fileID: 0}
   pingSample: 20
 --- !u!225 &77425761379163978
 CanvasGroup:
@@ -3206,6 +3205,7 @@ MonoBehaviour:
   fadeTime: 0
   blackTime: 0
   totalTime: 0
+  fadeDelaySeconds: 0
   isText: 0
 --- !u!1 &2934122842234400586
 GameObject:
@@ -3758,6 +3758,7 @@ MonoBehaviour:
   fadeTime: 0
   blackTime: 0
   totalTime: 0
+  fadeDelaySeconds: 0
   isText: 1
 --- !u!1 &3558827354498402342
 GameObject:

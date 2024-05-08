@@ -81,11 +81,20 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 04dc29cc092387a43aa97e7c82eefd58
   - enabled: 1
-    path: Assets/Scenes/Previews/GrassLandPV.unity
+    path: Assets/Scenes/Previews/GrasslandPV.unity
     guid: 1783df064ee8d7449ad9c54e32dd14ae
   - enabled: 1
-    path: Assets/Scenes/Previews/BrickYardPV.unity
+    path: Assets/Scenes/Previews/BrickyardPV.unity
     guid: d9a6a81459833a4488b29e943876c6a4
+  - enabled: 1
+    path: Assets/Scenes/Previews/CastlePV.unity
+    guid: 4b3a42f909208434d802c9109cf9dad0
+  - enabled: 1
+    path: Assets/Scenes/Previews/SnowLevelPV.unity
+    guid: 42641152ae8ee98409a257cfafc7b212
+  - enabled: 1
+    path: Assets/Scenes/Previews/PipesLevelPV.unity
+    guid: 4f304b82a5c4ff541a719e6584de0589
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 49335f30d253220488d2d332ade6e901,
       type: 2}

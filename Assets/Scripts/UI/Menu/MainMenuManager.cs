@@ -840,11 +840,22 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
     }
     private void ChangeBackground(int index) {
-        if(levelNameLast != "ERROR")
-            SceneManager.UnloadSceneAsync(levelNameLast);
+        if (levelNameLast == "ERROR") {
+            levelNameLast = levelScnNames[index];
+            SceneManager.LoadSceneAsync(levelNameLast, LoadSceneMode.Additive);
+            return;
+        }
 
+        StartCoroutine("WaitChangeBackground", index);
+    }
+    IEnumerator WaitChangeBackground(int index)
+    {
+        yield return SceneManager.LoadSceneAsync(levelScnNames[index], LoadSceneMode.Additive);
+        //wait for level loading
+
+        //unload scene once finished loading
+        yield return SceneManager.UnloadSceneAsync(levelNameLast);
         levelNameLast = levelScnNames[index];
-        SceneManager.LoadSceneAsync(levelNameLast, LoadSceneMode.Additive);
     }
     public void ChangeLevel(int index) {
         levelDropdown.SetValueWithoutNotify(index);

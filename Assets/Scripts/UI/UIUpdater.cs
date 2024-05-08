@@ -13,16 +13,15 @@ public class UIUpdater : MonoBehaviour {
     public GameObject playerTrackTemplate, starTrackTemplate;
     public PlayerController player;
     public Sprite storedItemNull;
-    public TMP_Text uiStars, uiCoins, uiDebug, uiLives, uiCountdown, musicName;
+    public TMP_Text uiStars, uiCoins, uiDebug, uiLives, uiCountdown, uiMusicName;
     public Image itemReserve, itemColor;
-    public FadeOutManager musicNameFader; 
     public float pingSample = 0;
+    private float uiMusicNameTimer = 0;
 
     private Material timerMaterial;
     private GameObject starsParent, coinsParent, livesParent, timerParent;
     private readonly List<Image> backgrounds = new();
     private bool uiHidden;
-    private bool isMusicNameFading = false;
 
     private int coins = -1, stars = -1, lives = -1, timer = -1;
 
@@ -39,8 +38,6 @@ public class UIUpdater : MonoBehaviour {
         backgrounds.Add(coinsParent.GetComponentInChildren<Image>());
         backgrounds.Add(livesParent.GetComponentInChildren<Image>());
         backgrounds.Add(timerParent.GetComponentInChildren<Image>());
-
-        musicNameFader.fadeDelaySeconds = 3;
 
         foreach (Image bg in backgrounds)
             bg.color = GameManager.Instance.levelUIColor;
@@ -74,7 +71,7 @@ public class UIUpdater : MonoBehaviour {
 
     public void SetMusicName(string name)
     {
-        musicName.text += name;
+        uiMusicName.text += name;
     }
 
     private void ToggleUI(bool hidden) {
@@ -137,14 +134,11 @@ public class UIUpdater : MonoBehaviour {
         } else {
             if(timerParent) timerParent.SetActive(false);
         }
-        if (musicName)
+
+        if (player && uiMusicName)
         {
-            if (!isMusicNameFading)
-            {
-                isMusicNameFading = true;
-                musicNameFader.FadeOutAndIn(0.33f, .1f);
-                if (musicNameFader.fadeTimer < 0) Destroy(musicName.gameObject);
-            }
+            if (uiMusicNameTimer == 0) uiMusicNameTimer = Time.time;
+            if (Time.time - uiMusicNameTimer > 8) Destroy(uiMusicName.gameObject);
         }
     }
 
