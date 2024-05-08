@@ -841,7 +841,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     }
     private void ChangeBackground(int index) {
         if(levelNameLast != "ERROR")
-            SceneManager.UnloadScene(levelNameLast);
+            SceneManager.UnloadSceneAsync(levelNameLast);
 
         levelNameLast = levelScnNames[index];
         SceneManager.LoadSceneAsync(levelNameLast, LoadSceneMode.Additive);
@@ -1000,6 +1000,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
 
         PhotonNetwork.RaiseEvent((byte) Enums.NetEventIds.PlayerChatMessage, text, NetworkUtils.EventAll, SendOptions.SendReliable);
         StartCoroutine(SelectNextFrame(chatTextField));
+        sfx.PlayOneShot(Enums.Sounds.UI_Chat_Send.GetClip());
     }
 
     public void Kick(Player target) {
