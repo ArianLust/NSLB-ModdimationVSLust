@@ -5465,6 +5465,7 @@ MonoBehaviour:
   playerCount: 0
   players: []
   enemySpawnpoints: []
+  uiUpdater: {fileID: 7156616037079317633}
   size: 1.39
   ySize: 0.8
   playersToVisualize: 10
