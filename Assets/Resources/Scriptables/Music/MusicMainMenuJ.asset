@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e5478bfbe63c3c46b392d3ca752690c, type: 3}
   m_Name: MusicMainMenuJ
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 21879097abf47304695aa119c43c5e8c, type: 3}
+  clip: {fileID: 8300000, guid: afc66f9cf9094ff45852b8f545f635e8, type: 3}
   fastClip: {fileID: 0}
-  loopStartSample: 3.557
-  loopEndSample: 40.885
+  loopStartSample: 14.641
+  loopEndSample: 65.18
+  showName: Music Track
