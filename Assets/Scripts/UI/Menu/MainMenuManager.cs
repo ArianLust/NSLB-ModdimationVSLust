@@ -1212,9 +1212,12 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     }
 
     IEnumerator SelectNextFrame(TMP_InputField input) {
+        Debug.Log("TEXT TEST 0");
         yield return new WaitForEndOfFrame();
+        Debug.Log("TEXT TEST 1");
         input.text = "";
         input.ActivateInputField();
+        Debug.Log("TEXT TEST 2");
     }
 
     public void SwapCharacter(TMP_Dropdown dropdown) {
