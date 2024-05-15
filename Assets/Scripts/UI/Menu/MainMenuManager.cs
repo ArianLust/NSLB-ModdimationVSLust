@@ -1018,6 +1018,9 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         StartCoroutine(SelectNextFrame(chatTextField));
         sfx.PlayOneShot(Enums.Sounds.UI_Chat_Send.GetClip());
     }
+    public void OnTypeText() {
+        sfx.PlayOneShot(Enums.Sounds.UI_Chat_Type.GetClip());
+    }
 
     public void Kick(Player target) {
         if (target.IsLocal) {
