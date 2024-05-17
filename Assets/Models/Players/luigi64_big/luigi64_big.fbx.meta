@@ -7,1932 +7,653 @@ ModelImporter:
       74: 6526803134433627612
     second: mario_model_mg|2jmp1_mario_model_mg
   - first:
-      74: -6169716483729441095
-    second: mario_model_mg|2jmp1_mario_model_mg.001
-  - first:
-      74: 1179635870530512127
-    second: mario_model_mg|2jmp1_mario_model_mg.002
-  - first:
       74: 2746465747926291216
     second: mario_model_mg|2jmp2_mario_model_mg
-  - first:
-      74: 8020929796443574757
-    second: mario_model_mg|2jmp2_mario_model_mg.001
-  - first:
-      74: 1118510335031588825
-    second: mario_model_mg|2jmp2_mario_model_mg.002
   - first:
       74: 503842159868916567
     second: mario_model_mg|2jmp_b_1_mario_model_mg
   - first:
-      74: -2371210991457592011
-    second: mario_model_mg|2jmp_b_1_mario_model_mg.001
-  - first:
-      74: 1512874510401607235
-    second: mario_model_mg|2jmp_b_1_mario_model_mg.002
-  - first:
       74: -1395987734154348434
     second: mario_model_mg|2jmp_b_2_mario_model_mg
-  - first:
-      74: 3543664181918016864
-    second: mario_model_mg|2jmp_b_2_mario_model_mg.001
-  - first:
-      74: -8675062086767726419
-    second: mario_model_mg|2jmp_b_2_mario_model_mg.002
   - first:
       74: 2579836911327356150
     second: mario_model_mg|2jmp_c_1_mario_model_mg
   - first:
-      74: -3579824692809831182
-    second: mario_model_mg|2jmp_c_1_mario_model_mg.001
-  - first:
-      74: 3391872085235345240
-    second: mario_model_mg|2jmp_c_1_mario_model_mg.002
-  - first:
       74: 1708979000861537007
     second: mario_model_mg|2jmp_c_2_mario_model_mg
-  - first:
-      74: -1127733291806956668
-    second: mario_model_mg|2jmp_c_2_mario_model_mg.001
-  - first:
-      74: 6555722106840372605
-    second: mario_model_mg|2jmp_c_2_mario_model_mg.002
   - first:
       74: -161306506838784590
     second: mario_model_mg|2jmp_d_1_mario_model_mg
   - first:
-      74: 1726783042792642742
-    second: mario_model_mg|2jmp_d_1_mario_model_mg.001
-  - first:
-      74: -5482647258215637567
-    second: mario_model_mg|2jmp_d_1_mario_model_mg.002
-  - first:
       74: 7276147343856933009
     second: mario_model_mg|2jmp_d_2_mario_model_mg
-  - first:
-      74: 8555798366966079240
-    second: mario_model_mg|2jmp_d_2_mario_model_mg.001
-  - first:
-      74: -5168880743618037496
-    second: mario_model_mg|2jmp_d_2_mario_model_mg.002
   - first:
       74: 6256140916610014131
     second: mario_model_mg|2jmp_e_1_mario_model_mg
   - first:
-      74: -3740671653827412787
-    second: mario_model_mg|2jmp_e_1_mario_model_mg.001
-  - first:
-      74: 4291633872107572617
-    second: mario_model_mg|2jmp_e_1_mario_model_mg.002
-  - first:
       74: 4965801180276983706
     second: mario_model_mg|2jmp_e_2_mario_model_mg
-  - first:
-      74: -8820315901616310924
-    second: mario_model_mg|2jmp_e_2_mario_model_mg.001
-  - first:
-      74: -1093488472146630429
-    second: mario_model_mg|2jmp_e_2_mario_model_mg.002
   - first:
       74: 5304300961600207028
     second: mario_model_mg|2jump1_mario_model_mg
   - first:
-      74: -1921459696685925919
-    second: mario_model_mg|2jump1_mario_model_mg.001
-  - first:
-      74: 7863087043355045638
-    second: mario_model_mg|2jump1_mario_model_mg.002
-  - first:
       74: 3698728561107381714
     second: mario_model_mg|2jump2_mario_model_mg
-  - first:
-      74: 573468771526668237
-    second: mario_model_mg|2jump2_mario_model_mg.001
-  - first:
-      74: -669409717407485261
-    second: mario_model_mg|2jump2_mario_model_mg.002
   - first:
       74: 761537080958417666
     second: mario_model_mg|2jumped_mario_model_mg
   - first:
-      74: -5521392932815445845
-    second: mario_model_mg|2jumped_mario_model_mg.001
-  - first:
-      74: 7107160666400075101
-    second: mario_model_mg|2jumped_mario_model_mg.002
-  - first:
       74: -430205122887178574
     second: mario_model_mg|attack_mario_model_mg
-  - first:
-      74: 3622790959544164959
-    second: mario_model_mg|attack_mario_model_mg.001
-  - first:
-      74: 5212127168638168515
-    second: mario_model_mg|attack_mario_model_mg.002
   - first:
       74: 6455120831816235746
     second: mario_model_mg|b_dash.001_mario_model_mg
   - first:
-      74: -3662774555530118024
-    second: mario_model_mg|b_dash.001_mario_model_mg.001
-  - first:
-      74: 6305938721672528740
-    second: mario_model_mg|b_dash.001_mario_model_mg.002
-  - first:
       74: -10039282053607306
     second: mario_model_mg|b_dash2_mario_model_mg
-  - first:
-      74: 4667105719700115930
-    second: mario_model_mg|b_dash2_mario_model_mg.001
-  - first:
-      74: 3133609507539396522
-    second: mario_model_mg|b_dash2_mario_model_mg.002
   - first:
       74: 2521946176606847193
     second: mario_model_mg|b_dash_mario_model_mg
   - first:
-      74: 6258156771850742551
-    second: mario_model_mg|b_dash_mario_model_mg.001
-  - first:
-      74: -2432055269541473619
-    second: mario_model_mg|b_dash_mario_model_mg.002
-  - first:
       74: 4015857521763800374
     second: mario_model_mg|big_goal_mario_model_mg
-  - first:
-      74: 8928449793364894341
-    second: mario_model_mg|big_goal_mario_model_mg.001
-  - first:
-      74: 8591466299254664632
-    second: mario_model_mg|big_goal_mario_model_mg.002
   - first:
       74: -3800083806335963329
     second: mario_model_mg|big_hip_at_mario_model_mg
   - first:
-      74: -4611973083706363368
-    second: mario_model_mg|big_hip_at_mario_model_mg.001
-  - first:
-      74: 522971030197870902
-    second: mario_model_mg|big_hip_at_mario_model_mg.002
-  - first:
       74: 6614608556746584815
     second: mario_model_mg|big_hip_ed_mario_model_mg
-  - first:
-      74: 7689091828547562255
-    second: mario_model_mg|big_hip_ed_mario_model_mg.001
-  - first:
-      74: 1981136947309110592
-    second: mario_model_mg|big_hip_ed_mario_model_mg.002
   - first:
       74: 1120502897885727745
     second: mario_model_mg|big_hip_squat_mario_model_mg
   - first:
-      74: 3031269147080442643
-    second: mario_model_mg|big_hip_squat_mario_model_mg.001
-  - first:
-      74: 9152088936792839312
-    second: mario_model_mg|big_hip_squat_mario_model_mg.002
-  - first:
       74: -1920664592570213121
     second: mario_model_mg|big_hip_st_mario_model_mg
-  - first:
-      74: -1788713491663348641
-    second: mario_model_mg|big_hip_st_mario_model_mg.001
-  - first:
-      74: -6505586621416771874
-    second: mario_model_mg|big_hip_st_mario_model_mg.002
   - first:
       74: 5487298358058082282
     second: mario_model_mg|big_jmp_2_mario_model_mg
   - first:
-      74: -121155529807933291
-    second: mario_model_mg|big_jmp_2_mario_model_mg.001
-  - first:
-      74: -8442540177232661498
-    second: mario_model_mg|big_jmp_2_mario_model_mg.002
-  - first:
       74: -8197853627315705243
     second: mario_model_mg|big_jump_ed_mario_model_mg
-  - first:
-      74: 2990950848877500419
-    second: mario_model_mg|big_jump_ed_mario_model_mg.001
-  - first:
-      74: -8863609670273648254
-    second: mario_model_mg|big_jump_ed_mario_model_mg.002
   - first:
       74: -4319249284445348206
     second: mario_model_mg|big_jump_st_mario_model_mg
   - first:
-      74: 1745215952497150816
-    second: mario_model_mg|big_jump_st_mario_model_mg.001
-  - first:
-      74: 6627825581570427935
-    second: mario_model_mg|big_jump_st_mario_model_mg.002
-  - first:
       74: -5868900911271883546
     second: mario_model_mg|big_wait_mario_model_mg
-  - first:
-      74: -1847892335301612254
-    second: mario_model_mg|big_wait_mario_model_mg.001
-  - first:
-      74: 8055609789916423516
-    second: mario_model_mg|big_wait_mario_model_mg.002
   - first:
       74: 3708145551980609297
     second: mario_model_mg|big_walk_mario_model_mg
   - first:
-      74: 2642767281837650698
-    second: mario_model_mg|big_walk_mario_model_mg.001
-  - first:
-      74: -6994810285032892305
-    second: mario_model_mg|big_walk_mario_model_mg.002
-  - first:
       74: 8079544469357829192
     second: mario_model_mg|boss_key_get_mario_model_mg
-  - first:
-      74: -3500594865808895945
-    second: mario_model_mg|boss_key_get_mario_model_mg.001
-  - first:
-      74: 1747309437664716781
-    second: mario_model_mg|boss_key_get_mario_model_mg.002
   - first:
       74: 1142498843127088368
     second: mario_model_mg|bt_goal_jmp_mario_model_mg
   - first:
-      74: -1367940808732052233
-    second: mario_model_mg|bt_goal_jmp_mario_model_mg.001
-  - first:
-      74: -5213696562102660733
-    second: mario_model_mg|bt_goal_jmp_mario_model_mg.002
-  - first:
       74: -303390825474110209
     second: mario_model_mg|bt_goal_out_mario_model_mg
-  - first:
-      74: 3700075875889048923
-    second: mario_model_mg|bt_goal_out_mario_model_mg.001
-  - first:
-      74: 3672525134607822465
-    second: mario_model_mg|bt_goal_out_mario_model_mg.002
   - first:
       74: -3393369893028161643
     second: mario_model_mg|bt_surprise_mario_model_mg
   - first:
-      74: 1844221313931180609
-    second: mario_model_mg|bt_surprise_mario_model_mg.001
-  - first:
-      74: -771607508816701817
-    second: mario_model_mg|bt_surprise_mario_model_mg.002
-  - first:
       74: -135433729743424634
     second: mario_model_mg|bt_wait_mario_model_mg
-  - first:
-      74: 4004622154187364572
-    second: mario_model_mg|bt_wait_mario_model_mg.001
-  - first:
-      74: 4778135030195002721
-    second: mario_model_mg|bt_wait_mario_model_mg.002
   - first:
       74: 9194398601627942368
     second: mario_model_mg|buried_damage_mario_model_mg
   - first:
-      74: 2328206143849039522
-    second: mario_model_mg|buried_damage_mario_model_mg.001
-  - first:
-      74: 2354628646437276311
-    second: mario_model_mg|buried_damage_mario_model_mg.002
-  - first:
       74: -3240149592202943398
     second: mario_model_mg|buried_ed_mario_model_mg
-  - first:
-      74: 366617246559306603
-    second: mario_model_mg|buried_ed_mario_model_mg.001
-  - first:
-      74: -5256826838660617882
-    second: mario_model_mg|buried_ed_mario_model_mg.002
   - first:
       74: -8963209072635164974
     second: mario_model_mg|buried_mario_model_mg
   - first:
-      74: -8015147374472185434
-    second: mario_model_mg|buried_mario_model_mg.001
-  - first:
-      74: 954012904419316625
-    second: mario_model_mg|buried_mario_model_mg.002
-  - first:
       74: -7759181420138149711
     second: mario_model_mg|buried_st_mario_model_mg
-  - first:
-      74: -1669892967183160426
-    second: mario_model_mg|buried_st_mario_model_mg.001
-  - first:
-      74: -8589781377736635449
-    second: mario_model_mg|buried_st_mario_model_mg.002
   - first:
       74: 5935752697594525628
     second: mario_model_mg|carry_pose_mario_model_mg
   - first:
-      74: -7240793059760620453
-    second: mario_model_mg|carry_pose_mario_model_mg.001
-  - first:
-      74: -6398462745092524486
-    second: mario_model_mg|carry_pose_mario_model_mg.002
-  - first:
       74: -3400600708796135680
     second: mario_model_mg|carry_start_mario_model_mg
-  - first:
-      74: 8281742996809504724
-    second: mario_model_mg|carry_start_mario_model_mg.001
-  - first:
-      74: -1332470752368080810
-    second: mario_model_mg|carry_start_mario_model_mg.002
   - first:
       74: 21315015762724479
     second: mario_model_mg|carry_throw.001_mario_model_mg
   - first:
-      74: -396303758541289283
-    second: mario_model_mg|carry_throw.001_mario_model_mg.001
-  - first:
-      74: -1723795843563398980
-    second: mario_model_mg|carry_throw.001_mario_model_mg.002
-  - first:
       74: 1260460720118595311
     second: mario_model_mg|carry_throw_mario_model_mg
-  - first:
-      74: -8357538039076245217
-    second: mario_model_mg|carry_throw_mario_model_mg.001
-  - first:
-      74: 6158400118038379582
-    second: mario_model_mg|carry_throw_mario_model_mg.002
   - first:
       74: 6864258345905747985
     second: mario_model_mg|carry_wait_mario_model_mg
   - first:
-      74: -612890140518723600
-    second: mario_model_mg|carry_wait_mario_model_mg.001
-  - first:
-      74: -2209695687966878447
-    second: mario_model_mg|carry_wait_mario_model_mg.002
-  - first:
       74: -4011327478981043815
     second: mario_model_mg|carry_walk_mario_model_mg
-  - first:
-      74: 1074171839231059059
-    second: mario_model_mg|carry_walk_mario_model_mg.001
-  - first:
-      74: 8398474565333619896
-    second: mario_model_mg|carry_walk_mario_model_mg.002
   - first:
       74: -3338553113133413036
     second: mario_model_mg|coin_comp_mario_model_mg
   - first:
-      74: 3297373154712072332
-    second: mario_model_mg|coin_comp_mario_model_mg.001
-  - first:
-      74: 3551812211940878736
-    second: mario_model_mg|coin_comp_mario_model_mg.002
-  - first:
       74: -8225785818066577548
     second: mario_model_mg|course_in_mario_model_mg
-  - first:
-      74: 8545191413160203152
-    second: mario_model_mg|course_in_mario_model_mg.001
-  - first:
-      74: -8132007015608227549
-    second: mario_model_mg|course_in_mario_model_mg.002
   - first:
       74: 96641067465223777
     second: mario_model_mg|dead_mario_model_mg
   - first:
-      74: 6105090510693807737
-    second: mario_model_mg|dead_mario_model_mg.001
-  - first:
-      74: -1668652864791795335
-    second: mario_model_mg|dead_mario_model_mg.002
-  - first:
       74: 3582664078388807148
     second: mario_model_mg|dead_pose_mario_model_mg
-  - first:
-      74: 4885563491522317184
-    second: mario_model_mg|dead_pose_mario_model_mg.001
-  - first:
-      74: 7467357530378496808
-    second: mario_model_mg|dead_pose_mario_model_mg.002
   - first:
       74: -5514392963636458546
     second: mario_model_mg|door_walk_mario_model_mg
   - first:
-      74: 2017429625292051622
-    second: mario_model_mg|door_walk_mario_model_mg.001
-  - first:
-      74: -9047643750949323715
-    second: mario_model_mg|door_walk_mario_model_mg.002
-  - first:
       74: 3938766976430449379
     second: mario_model_mg|e_damage1_mario_model_mg
-  - first:
-      74: 8944629567237504986
-    second: mario_model_mg|e_damage1_mario_model_mg.001
-  - first:
-      74: -4786095675638907506
-    second: mario_model_mg|e_damage1_mario_model_mg.002
   - first:
       74: -8215730599232396350
     second: mario_model_mg|e_damage2_mario_model_mg
   - first:
-      74: -4331700105649542346
-    second: mario_model_mg|e_damage2_mario_model_mg.001
-  - first:
-      74: 8458334948238324360
-    second: mario_model_mg|e_damage2_mario_model_mg.002
-  - first:
       74: -4979601016764864456
     second: mario_model_mg|e_down_mario_model_mg
-  - first:
-      74: 2113079740898872587
-    second: mario_model_mg|e_down_mario_model_mg.001
-  - first:
-      74: 6155341652700306716
-    second: mario_model_mg|e_down_mario_model_mg.002
   - first:
       74: 5726763025784897203
     second: mario_model_mg|e_shock_mario_model_mg
   - first:
-      74: -7408420072467458459
-    second: mario_model_mg|e_shock_mario_model_mg.001
-  - first:
-      74: -3980417415915826702
-    second: mario_model_mg|e_shock_mario_model_mg.002
-  - first:
       74: 8699694594467593921
     second: mario_model_mg|find_loop_mario_model_mg
-  - first:
-      74: -7806788913179645448
-    second: mario_model_mg|find_loop_mario_model_mg.001
-  - first:
-      74: 3758380317946839033
-    second: mario_model_mg|find_loop_mario_model_mg.002
   - first:
       74: 3987819042016613341
     second: mario_model_mg|find_mario_model_mg
   - first:
-      74: -763548652306996743
-    second: mario_model_mg|find_mario_model_mg.001
-  - first:
-      74: 6035453461924963309
-    second: mario_model_mg|find_mario_model_mg.002
-  - first:
       74: -6834082256118351541
     second: mario_model_mg|find_surprise_mario_model_mg
-  - first:
-      74: 5352324922263696039
-    second: mario_model_mg|find_surprise_mario_model_mg.001
-  - first:
-      74: -6296541082065900095
-    second: mario_model_mg|find_surprise_mario_model_mg.002
   - first:
       74: 5529988310570089703
     second: mario_model_mg|fire_at_mario_model_mg
   - first:
-      74: 6053806750245973831
-    second: mario_model_mg|fire_at_mario_model_mg.001
-  - first:
-      74: -6617819320160739113
-    second: mario_model_mg|fire_at_mario_model_mg.002
-  - first:
       74: 8793942090897496433
     second: mario_model_mg|firejmp.001_mario_model_mg
-  - first:
-      74: 5394943193189291009
-    second: mario_model_mg|firejmp.001_mario_model_mg.001
-  - first:
-      74: 211962036879283884
-    second: mario_model_mg|firejmp.001_mario_model_mg.002
   - first:
       74: 8515700178815899920
     second: mario_model_mg|firejmp_mario_model_mg
   - first:
-      74: 1822270716251492532
-    second: mario_model_mg|firejmp_mario_model_mg.001
-  - first:
-      74: 1085276484418669177
-    second: mario_model_mg|firejmp_mario_model_mg.002
-  - first:
       74: 3557936320216852664
     second: mario_model_mg|goal_jump_ed_mario_model_mg
-  - first:
-      74: 2073842032450767826
-    second: mario_model_mg|goal_jump_ed_mario_model_mg.001
-  - first:
-      74: 8578821964780408672
-    second: mario_model_mg|goal_jump_ed_mario_model_mg.002
   - first:
       74: 3638009351639146512
     second: mario_model_mg|goal_jump_mario_model_mg
   - first:
-      74: 2040242368688257981
-    second: mario_model_mg|goal_jump_mario_model_mg.001
-  - first:
-      74: -4974377370233543923
-    second: mario_model_mg|goal_jump_mario_model_mg.002
-  - first:
       74: 952719729481450131
     second: mario_model_mg|goal_puton_cap_mario_model_mg
-  - first:
-      74: 2835806955694361343
-    second: mario_model_mg|goal_puton_cap_mario_model_mg.001
-  - first:
-      74: -5270340182492695462
-    second: mario_model_mg|goal_puton_cap_mario_model_mg.002
   - first:
       74: -7780259043359541884
     second: mario_model_mg|hang_start_mario_model_mg
   - first:
-      74: 2688503611989121515
-    second: mario_model_mg|hang_start_mario_model_mg.001
-  - first:
-      74: 4757079482584284640
-    second: mario_model_mg|hang_start_mario_model_mg.002
-  - first:
       74: -8140895959289708991
     second: mario_model_mg|hang_up.001_mario_model_mg
-  - first:
-      74: -8956477174658119694
-    second: mario_model_mg|hang_up.001_mario_model_mg.001
-  - first:
-      74: -2073376588050102369
-    second: mario_model_mg|hang_up.001_mario_model_mg.002
   - first:
       74: 576706147237612408
     second: mario_model_mg|hang_up_mario_model_mg
   - first:
-      74: 5551866360204609412
-    second: mario_model_mg|hang_up_mario_model_mg.001
-  - first:
-      74: 8140572076641903460
-    second: mario_model_mg|hang_up_mario_model_mg.002
-  - first:
       74: -3986935010523797666
     second: mario_model_mg|hang_wait_mario_model_mg
-  - first:
-      74: 2644702605701001695
-    second: mario_model_mg|hang_wait_mario_model_mg.001
-  - first:
-      74: 7561378359515646567
-    second: mario_model_mg|hang_wait_mario_model_mg.002
   - first:
       74: -3176677581292673428
     second: mario_model_mg|hang_walk_l_mario_model_mg
   - first:
-      74: -2303919482322277597
-    second: mario_model_mg|hang_walk_l_mario_model_mg.001
-  - first:
-      74: 3179036617244397598
-    second: mario_model_mg|hang_walk_l_mario_model_mg.002
-  - first:
       74: -776663928012758559
     second: mario_model_mg|hang_walk_r_mario_model_mg
-  - first:
-      74: 6663226720727712231
-    second: mario_model_mg|hang_walk_r_mario_model_mg.001
-  - first:
-      74: 307870278930522184
-    second: mario_model_mg|hang_walk_r_mario_model_mg.002
   - first:
       74: 2459589200463975708
     second: mario_model_mg|head_carry_wait_mario_model_mg
   - first:
-      74: 2672938105613161352
-    second: mario_model_mg|head_carry_wait_mario_model_mg.001
-  - first:
-      74: 7123975819264324744
-    second: mario_model_mg|head_carry_wait_mario_model_mg.002
-  - first:
       74: 7104410011021939564
     second: mario_model_mg|head_carry_walk_mario_model_mg
-  - first:
-      74: -5188751232718654045
-    second: mario_model_mg|head_carry_walk_mario_model_mg.001
-  - first:
-      74: -113999702398358107
-    second: mario_model_mg|head_carry_walk_mario_model_mg.002
   - first:
       74: 985563522561293605
     second: mario_model_mg|hipat_mario_model_mg
   - first:
-      74: -2204355094501771763
-    second: mario_model_mg|hipat_mario_model_mg.001
-  - first:
-      74: -1083669683433859866
-    second: mario_model_mg|hipat_mario_model_mg.002
-  - first:
       74: -5758823836050490106
     second: mario_model_mg|hiped_mario_model_mg
-  - first:
-      74: -3604834980119784768
-    second: mario_model_mg|hiped_mario_model_mg.001
-  - first:
-      74: -1464173029109124044
-    second: mario_model_mg|hiped_mario_model_mg.002
   - first:
       74: 236044150126499313
     second: mario_model_mg|hipsr_mario_model_mg
   - first:
-      74: -5495466904814849517
-    second: mario_model_mg|hipsr_mario_model_mg.001
-  - first:
-      74: 7357543689003846206
-    second: mario_model_mg|hipsr_mario_model_mg.002
-  - first:
       74: -8166834287284216710
     second: mario_model_mg|ice_pickup_mario_model_mg
-  - first:
-      74: -2605649557207974790
-    second: mario_model_mg|ice_pickup_mario_model_mg.001
-  - first:
-      74: -2124290441992336252
-    second: mario_model_mg|ice_pickup_mario_model_mg.002
   - first:
       74: 4857678256887524199
     second: mario_model_mg|jmped_mario_model_mg
   - first:
-      74: -6609196014317850616
-    second: mario_model_mg|jmped_mario_model_mg.001
-  - first:
-      74: 367449224167594336
-    second: mario_model_mg|jmped_mario_model_mg.002
-  - first:
       74: 3801274155851930419
     second: mario_model_mg|jr_crear_mario_model_mg
-  - first:
-      74: -8386328685738170405
-    second: mario_model_mg|jr_crear_mario_model_mg.001
-  - first:
-      74: -5660662363241150284
-    second: mario_model_mg|jr_crear_mario_model_mg.002
   - first:
       74: -5036943952264090541
     second: mario_model_mg|jump.001_mario_model_mg
   - first:
-      74: -6811211264071204189
-    second: mario_model_mg|jump.001_mario_model_mg.001
-  - first:
-      74: 2880122251389573579
-    second: mario_model_mg|jump.001_mario_model_mg.002
-  - first:
       74: -1492077425157798747
     second: mario_model_mg|jump.002_mario_model_mg
-  - first:
-      74: -3663452357099003277
-    second: mario_model_mg|jump.002_mario_model_mg.001
-  - first:
-      74: -1826636890839504561
-    second: mario_model_mg|jump.002_mario_model_mg.002
   - first:
       74: -6655851124842062386
     second: mario_model_mg|jump2_mario_model_mg
   - first:
-      74: -6754127763923807744
-    second: mario_model_mg|jump2_mario_model_mg.001
-  - first:
-      74: 52661829203550235
-    second: mario_model_mg|jump2_mario_model_mg.002
-  - first:
       74: 6408654875929036903
     second: mario_model_mg|jump_b_mario_model_mg
-  - first:
-      74: -2141775075828061121
-    second: mario_model_mg|jump_b_mario_model_mg.001
-  - first:
-      74: 8018866167249579155
-    second: mario_model_mg|jump_b_mario_model_mg.002
   - first:
       74: 9009486334238088242
     second: mario_model_mg|jump_c_mario_model_mg
   - first:
-      74: 7776271200549219592
-    second: mario_model_mg|jump_c_mario_model_mg.001
-  - first:
-      74: -9216190914028338723
-    second: mario_model_mg|jump_c_mario_model_mg.002
-  - first:
       74: -2173132930687457851
     second: mario_model_mg|jump_d_mario_model_mg
-  - first:
-      74: -1608261099590097853
-    second: mario_model_mg|jump_d_mario_model_mg.001
-  - first:
-      74: 5612676605740899177
-    second: mario_model_mg|jump_d_mario_model_mg.002
   - first:
       74: -4939131150409779524
     second: mario_model_mg|jump_e_mario_model_mg
   - first:
-      74: 7527578235721164639
-    second: mario_model_mg|jump_e_mario_model_mg.001
-  - first:
-      74: -8246074890993323777
-    second: mario_model_mg|jump_e_mario_model_mg.002
-  - first:
       74: 185709068371293584
     second: mario_model_mg|jump_hang_mario_model_mg
-  - first:
-      74: 1133857719721994294
-    second: mario_model_mg|jump_hang_mario_model_mg.001
-  - first:
-      74: 7559972087726515866
-    second: mario_model_mg|jump_hang_mario_model_mg.002
   - first:
       74: -1594791975795387719
     second: mario_model_mg|jump_mario_model_mg
   - first:
-      74: -458357086684671099
-    second: mario_model_mg|jump_mario_model_mg.001
-  - first:
-      74: 7765580008264141317
-    second: mario_model_mg|jump_mario_model_mg.002
-  - first:
       74: -4392543776152270989
     second: mario_model_mg|jumped.001_mario_model_mg
-  - first:
-      74: -6565302720654641186
-    second: mario_model_mg|jumped.001_mario_model_mg.001
-  - first:
-      74: 5841871027363448606
-    second: mario_model_mg|jumped.001_mario_model_mg.002
   - first:
       74: -4109390600903834306
     second: mario_model_mg|jumped_mario_model_mg
   - first:
-      74: 422416722417200675
-    second: mario_model_mg|jumped_mario_model_mg.001
-  - first:
-      74: -8697024095808689931
-    second: mario_model_mg|jumped_mario_model_mg.002
-  - first:
       74: 7743541953057611311
     second: mario_model_mg|L_run.001_mario_model_mg
-  - first:
-      74: 7827523502141220688
-    second: mario_model_mg|L_run.001_mario_model_mg.001
-  - first:
-      74: 3518109680260183786
-    second: mario_model_mg|L_run.001_mario_model_mg.002
   - first:
       74: -8078659583057658372
     second: mario_model_mg|L_run.002_mario_model_mg
   - first:
-      74: 4402379577554871067
-    second: mario_model_mg|L_run.002_mario_model_mg.001
-  - first:
-      74: -5623853838282560965
-    second: mario_model_mg|L_run.002_mario_model_mg.002
-  - first:
       74: -6118267490169541535
     second: mario_model_mg|L_run_mario_model_mg
-  - first:
-      74: -3136131693083377889
-    second: mario_model_mg|L_run_mario_model_mg.001
-  - first:
-      74: -8210301670667868927
-    second: mario_model_mg|L_run_mario_model_mg.002
   - first:
       74: -1036439179411476507
     second: mario_model_mg|L_wait.001_mario_model_mg
   - first:
-      74: -9068099443149661880
-    second: mario_model_mg|L_wait.001_mario_model_mg.001
-  - first:
-      74: -8678183615892831924
-    second: mario_model_mg|L_wait.001_mario_model_mg.002
-  - first:
       74: 8553869589678877796
     second: mario_model_mg|L_wait.002_mario_model_mg
-  - first:
-      74: 200279459946551699
-    second: mario_model_mg|L_wait.002_mario_model_mg.001
-  - first:
-      74: 5178236589015807093
-    second: mario_model_mg|L_wait.002_mario_model_mg.002
   - first:
       74: -2475625046873759203
     second: mario_model_mg|L_wait_mario_model_mg
   - first:
-      74: -4705172886652162064
-    second: mario_model_mg|L_wait_mario_model_mg.001
-  - first:
-      74: -3611403134562822597
-    second: mario_model_mg|L_wait_mario_model_mg.002
-  - first:
       74: 179323177296833747
     second: mario_model_mg|L_walk.001_mario_model_mg
-  - first:
-      74: 8992111332884571782
-    second: mario_model_mg|L_walk.001_mario_model_mg.001
-  - first:
-      74: -1346462033094464693
-    second: mario_model_mg|L_walk.001_mario_model_mg.002
   - first:
       74: 1958089852017160985
     second: mario_model_mg|L_walk.002_mario_model_mg
   - first:
-      74: 5204424848330939722
-    second: mario_model_mg|L_walk.002_mario_model_mg.001
-  - first:
-      74: -8962838896216570696
-    second: mario_model_mg|L_walk.002_mario_model_mg.002
-  - first:
       74: -7338049921340618940
     second: mario_model_mg|L_walk_mario_model_mg
-  - first:
-      74: -3805779097452999689
-    second: mario_model_mg|L_walk_mario_model_mg.001
-  - first:
-      74: -3099206193841904228
-    second: mario_model_mg|L_walk_mario_model_mg.002
   - first:
       74: -5751637907479147579
     second: mario_model_mg|lost_mario_model_mg
   - first:
-      74: 6610045746646625678
-    second: mario_model_mg|lost_mario_model_mg.001
-  - first:
-      74: -6935398184956294548
-    second: mario_model_mg|lost_mario_model_mg.002
-  - first:
       74: 8326566300357088254
     second: mario_model_mg|low_walk_mario_model_mg
-  - first:
-      74: 1710667411567352660
-    second: mario_model_mg|low_walk_mario_model_mg.001
-  - first:
-      74: 3145071578635990778
-    second: mario_model_mg|low_walk_mario_model_mg.002
   - first:
       74: 7932509689903198601
     second: mario_model_mg|m_escort_mario_model_mg
   - first:
-      74: 7785531180418808871
-    second: mario_model_mg|m_escort_mario_model_mg.001
-  - first:
-      74: 478681847772145029
-    second: mario_model_mg|m_escort_mario_model_mg.002
-  - first:
       74: 6052916587092794951
     second: mario_model_mg|m_fall_wait_mario_model_mg
-  - first:
-      74: -26095358093488398
-    second: mario_model_mg|m_fall_wait_mario_model_mg.001
-  - first:
-      74: 1029371158565909646
-    second: mario_model_mg|m_fall_wait_mario_model_mg.002
   - first:
       74: 8942284786690488705
     second: mario_model_mg|m_kiss_mario_model_mg
   - first:
-      74: -336600604146589357
-    second: mario_model_mg|m_kiss_mario_model_mg.001
-  - first:
-      74: 440701409561530352
-    second: mario_model_mg|m_kiss_mario_model_mg.002
-  - first:
       74: 7831608471050508304
     second: mario_model_mg|m_shy_mario_model_mg
-  - first:
-      74: 3912927283924596181
-    second: mario_model_mg|m_shy_mario_model_mg.001
-  - first:
-      74: -5733115729499447569
-    second: mario_model_mg|m_shy_mario_model_mg.002
   - first:
       74: 7566415498300743053
     second: mario_model_mg|monkey_l_to_r_mario_model_mg
   - first:
-      74: 7821287894988166608
-    second: mario_model_mg|monkey_l_to_r_mario_model_mg.001
-  - first:
-      74: -8475121369929754809
-    second: mario_model_mg|monkey_l_to_r_mario_model_mg.002
-  - first:
       74: 7652281811266626535
     second: mario_model_mg|monkey_r_to_l_mario_model_mg
-  - first:
-      74: 7910379392314488887
-    second: mario_model_mg|monkey_r_to_l_mario_model_mg.001
-  - first:
-      74: -773962426633548341
-    second: mario_model_mg|monkey_r_to_l_mario_model_mg.002
   - first:
       74: 372051566630462808
     second: mario_model_mg|monkey_start_mario_model_mg
   - first:
-      74: 2774902839873813168
-    second: mario_model_mg|monkey_start_mario_model_mg.001
-  - first:
-      74: 3693601954667447989
-    second: mario_model_mg|monkey_start_mario_model_mg.002
-  - first:
       74: 627093368486229661
     second: mario_model_mg|monkey_wait_l_mario_model_mg
-  - first:
-      74: -3178658805147530212
-    second: mario_model_mg|monkey_wait_l_mario_model_mg.001
-  - first:
-      74: -114572655863786872
-    second: mario_model_mg|monkey_wait_l_mario_model_mg.002
   - first:
       74: 925606287064631355
     second: mario_model_mg|monkey_wait_r_mario_model_mg
   - first:
-      74: 3011308222812071757
-    second: mario_model_mg|monkey_wait_r_mario_model_mg.001
-  - first:
-      74: -1748065190404404405
-    second: mario_model_mg|monkey_wait_r_mario_model_mg.002
-  - first:
       74: -8694884907346899184
     second: mario_model_mg|move1_mario_model_mg
-  - first:
-      74: 6094512802027494891
-    second: mario_model_mg|move1_mario_model_mg.001
-  - first:
-      74: 5438398890921378130
-    second: mario_model_mg|move1_mario_model_mg.002
   - first:
       74: 3829853286602737876
     second: mario_model_mg|move2_mario_model_mg
   - first:
-      74: 8033698876362233550
-    second: mario_model_mg|move2_mario_model_mg.001
-  - first:
-      74: 3676046554188329350
-    second: mario_model_mg|move2_mario_model_mg.002
-  - first:
       74: -6599010346550116813
     second: mario_model_mg|net_attack_mario_model_mg
-  - first:
-      74: 9080194492948470242
-    second: mario_model_mg|net_attack_mario_model_mg.001
-  - first:
-      74: 4623397483322914770
-    second: mario_model_mg|net_attack_mario_model_mg.002
   - first:
       74: 1157623702963818654
     second: mario_model_mg|net_wait_mario_model_mg
   - first:
-      74: -8337984447175166881
-    second: mario_model_mg|net_wait_mario_model_mg.001
-  - first:
-      74: -4724172783362629621
-    second: mario_model_mg|net_wait_mario_model_mg.002
-  - first:
       74: 2758160091474203164
     second: mario_model_mg|net_walk1_mario_model_mg
-  - first:
-      74: -6439277085054253119
-    second: mario_model_mg|net_walk1_mario_model_mg.001
-  - first:
-      74: -4614302217063498753
-    second: mario_model_mg|net_walk1_mario_model_mg.002
   - first:
       74: 2409633576617449969
     second: mario_model_mg|net_walk2_mario_model_mg
   - first:
-      74: 2378695984907195923
-    second: mario_model_mg|net_walk2_mario_model_mg.001
-  - first:
-      74: -5253704307972668144
-    second: mario_model_mg|net_walk2_mario_model_mg.002
-  - first:
       74: 3887658727846531285
     second: mario_model_mg|opm_brake_mario_model_mg
-  - first:
-      74: -4605588725957360037
-    second: mario_model_mg|opm_brake_mario_model_mg.001
-  - first:
-      74: -1614286910680326530
-    second: mario_model_mg|opm_brake_mario_model_mg.002
   - first:
       74: -8862372033900810997
     second: mario_model_mg|opm_jr_notice_mario_model_mg
   - first:
-      74: 7797185325752990503
-    second: mario_model_mg|opm_jr_notice_mario_model_mg.001
-  - first:
-      74: -5041395859181099626
-    second: mario_model_mg|opm_jr_notice_mario_model_mg.002
-  - first:
       74: -7040946444491685311
     second: mario_model_mg|opm_look_up_mario_model_mg
-  - first:
-      74: 8937148928864292034
-    second: mario_model_mg|opm_look_up_mario_model_mg.001
-  - first:
-      74: -7940035961554114719
-    second: mario_model_mg|opm_look_up_mario_model_mg.002
   - first:
       74: 8078103030662305588
     second: mario_model_mg|opm_noti_wait_mario_model_mg
   - first:
-      74: 4092329442656188318
-    second: mario_model_mg|opm_noti_wait_mario_model_mg.001
-  - first:
-      74: 5857160903455226810
-    second: mario_model_mg|opm_noti_wait_mario_model_mg.002
-  - first:
       74: 916162507628118263
     second: mario_model_mg|opm_notice_mario_model_mg
-  - first:
-      74: 8726336101960968876
-    second: mario_model_mg|opm_notice_mario_model_mg.001
-  - first:
-      74: 3932068739485377061
-    second: mario_model_mg|opm_notice_mario_model_mg.002
   - first:
       74: -7938631786239893940
     second: mario_model_mg|opm_person_mario_model_mg
   - first:
-      74: 5235952327635000042
-    second: mario_model_mg|opm_person_mario_model_mg.001
-  - first:
-      74: 5399575478128058080
-    second: mario_model_mg|opm_person_mario_model_mg.002
-  - first:
       74: 4251556447630654725
     second: mario_model_mg|opm_surprise1_mario_model_mg
-  - first:
-      74: -958912590872712255
-    second: mario_model_mg|opm_surprise1_mario_model_mg.001
-  - first:
-      74: 6731999741949705760
-    second: mario_model_mg|opm_surprise1_mario_model_mg.002
   - first:
       74: 3852323484118359328
     second: mario_model_mg|opm_surprise2_mario_model_mg
   - first:
-      74: -4141330902259852480
-    second: mario_model_mg|opm_surprise2_mario_model_mg.001
-  - first:
-      74: -3223651774754011598
-    second: mario_model_mg|opm_surprise2_mario_model_mg.002
-  - first:
       74: -11200456343720887
     second: mario_model_mg|paddle_1_mario_model_mg
-  - first:
-      74: 952064860024422603
-    second: mario_model_mg|paddle_1_mario_model_mg.001
-  - first:
-      74: 4396190940854113810
-    second: mario_model_mg|paddle_1_mario_model_mg.002
   - first:
       74: -5982226144941614404
     second: mario_model_mg|paddle_2_mario_model_mg
   - first:
-      74: -667843546805979674
-    second: mario_model_mg|paddle_2_mario_model_mg.001
-  - first:
-      74: -400613904969042032
-    second: mario_model_mg|paddle_2_mario_model_mg.002
-  - first:
       74: -9130394797644798364
     second: mario_model_mg|paddle_carry_mario_model_mg
-  - first:
-      74: -1223635719615252841
-    second: mario_model_mg|paddle_carry_mario_model_mg.001
-  - first:
-      74: 1238292361270975988
-    second: mario_model_mg|paddle_carry_mario_model_mg.002
   - first:
       74: 8947632978195768459
     second: mario_model_mg|paddle_end_mario_model_mg
   - first:
-      74: -7309679677606478696
-    second: mario_model_mg|paddle_end_mario_model_mg.001
-  - first:
-      74: 7224414056187101951
-    second: mario_model_mg|paddle_end_mario_model_mg.002
-  - first:
       74: -1030623138238921846
     second: mario_model_mg|pea_plant_mario_model_mg
-  - first:
-      74: -3411961070097786690
-    second: mario_model_mg|pea_plant_mario_model_mg.001
-  - first:
-      74: -7974444313914060404
-    second: mario_model_mg|pea_plant_mario_model_mg.002
   - first:
       74: 7438788826134191022
     second: mario_model_mg|pea_plant_st_mario_model_mg
   - first:
-      74: -7052559535631707500
-    second: mario_model_mg|pea_plant_st_mario_model_mg.001
-  - first:
-      74: -1967578105761536562
-    second: mario_model_mg|pea_plant_st_mario_model_mg.002
-  - first:
       74: -4939683631680825286
     second: mario_model_mg|pea_plant_wait_mario_model_mg
-  - first:
-      74: -8161481449996159102
-    second: mario_model_mg|pea_plant_wait_mario_model_mg.001
-  - first:
-      74: 5024476963149243011
-    second: mario_model_mg|pea_plant_wait_mario_model_mg.002
   - first:
       74: 9132403547938976885
     second: mario_model_mg|pipe_pose_mario_model_mg
   - first:
-      74: -2179946370293831232
-    second: mario_model_mg|pipe_pose_mario_model_mg.001
-  - first:
-      74: -4302246010715231959
-    second: mario_model_mg|pipe_pose_mario_model_mg.002
-  - first:
       74: 608854373147495923
     second: mario_model_mg|push_mario_model_mg
-  - first:
-      74: -1718037162084203211
-    second: mario_model_mg|push_mario_model_mg.001
-  - first:
-      74: -3968851931244868918
-    second: mario_model_mg|push_mario_model_mg.002
   - first:
       74: 1108982160899887669
     second: mario_model_mg|roll_jump.001_mario_model_mg
   - first:
-      74: -3969103258401032694
-    second: mario_model_mg|roll_jump.001_mario_model_mg.001
-  - first:
-      74: -7001801359971847865
-    second: mario_model_mg|roll_jump.001_mario_model_mg.002
-  - first:
       74: -7801633925373561620
     second: mario_model_mg|roll_jump_end_mario_model_mg
-  - first:
-      74: -4006294354998072947
-    second: mario_model_mg|roll_jump_end_mario_model_mg.001
-  - first:
-      74: -7664622966947610178
-    second: mario_model_mg|roll_jump_end_mario_model_mg.002
   - first:
       74: 1369689779851070500
     second: mario_model_mg|roll_jump_mario_model_mg
   - first:
-      74: -7317166928577918412
-    second: mario_model_mg|roll_jump_mario_model_mg.001
-  - first:
-      74: -7792125371724839455
-    second: mario_model_mg|roll_jump_mario_model_mg.002
-  - first:
       74: -5956106808263113045
     second: mario_model_mg|roll_mario_model_mg
-  - first:
-      74: 6748559612395372560
-    second: mario_model_mg|roll_mario_model_mg.001
-  - first:
-      74: 7715026749611239343
-    second: mario_model_mg|roll_mario_model_mg.002
   - first:
       74: 7316381523588541009
     second: mario_model_mg|rope_jump_ed_mario_model_mg
   - first:
-      74: -5458239869386255659
-    second: mario_model_mg|rope_jump_ed_mario_model_mg.001
-  - first:
-      74: 280408495752080693
-    second: mario_model_mg|rope_jump_ed_mario_model_mg.002
-  - first:
       74: 3346842053030833089
     second: mario_model_mg|rope_swing_mario_model_mg
-  - first:
-      74: 6021067520987823338
-    second: mario_model_mg|rope_swing_mario_model_mg.001
-  - first:
-      74: -4369086329961313398
-    second: mario_model_mg|rope_swing_mario_model_mg.002
   - first:
       74: 1187912435329771474
     second: mario_model_mg|rope_wait2_mario_model_mg
   - first:
-      74: -3555037056572884774
-    second: mario_model_mg|rope_wait2_mario_model_mg.001
-  - first:
-      74: -4061916263835570152
-    second: mario_model_mg|rope_wait2_mario_model_mg.002
-  - first:
       74: -609428710537870126
     second: mario_model_mg|rope_wait_mario_model_mg
-  - first:
-      74: 2517125341019923488
-    second: mario_model_mg|rope_wait_mario_model_mg.001
-  - first:
-      74: 3604751736650148073
-    second: mario_model_mg|rope_wait_mario_model_mg.002
   - first:
       74: 6728799126522864615
     second: mario_model_mg|rope_walk_mario_model_mg
   - first:
-      74: 4572832883023468828
-    second: mario_model_mg|rope_walk_mario_model_mg.001
-  - first:
-      74: 4781637555225130730
-    second: mario_model_mg|rope_walk_mario_model_mg.002
-  - first:
       74: 6740399123275978479
     second: mario_model_mg|run.001_mario_model_mg
-  - first:
-      74: 2415083049142907982
-    second: mario_model_mg|run.001_mario_model_mg.001
-  - first:
-      74: 7527904182406257837
-    second: mario_model_mg|run.001_mario_model_mg.002
   - first:
       74: 6395337971472373580
     second: mario_model_mg|run.002_mario_model_mg
   - first:
-      74: 8648020884975058021
-    second: mario_model_mg|run.002_mario_model_mg.001
-  - first:
-      74: 1213697430895220546
-    second: mario_model_mg|run.002_mario_model_mg.002
-  - first:
       74: -483726293617546318
     second: mario_model_mg|run_mario_model_mg
-  - first:
-      74: -584406460458089403
-    second: mario_model_mg|run_mario_model_mg.001
-  - first:
-      74: -1352517155077919885
-    second: mario_model_mg|run_mario_model_mg.002
   - first:
       74: 5708656206422130156
     second: mario_model_mg|scale_up_mario_model_mg
   - first:
-      74: 8691339119878368904
-    second: mario_model_mg|scale_up_mario_model_mg.001
-  - first:
-      74: -8530552095547705987
-    second: mario_model_mg|scale_up_mario_model_mg.002
-  - first:
       74: -3747483258408024880
     second: mario_model_mg|sdown.001_mario_model_mg
-  - first:
-      74: 5636432187874998007
-    second: mario_model_mg|sdown.001_mario_model_mg.001
-  - first:
-      74: -8831658159830892591
-    second: mario_model_mg|sdown.001_mario_model_mg.002
   - first:
       74: -6368207487943243911
     second: mario_model_mg|sdown_mario_model_mg
   - first:
-      74: -6941033240410566280
-    second: mario_model_mg|sdown_mario_model_mg.001
-  - first:
-      74: 595916418261912671
-    second: mario_model_mg|sdown_mario_model_mg.002
-  - first:
       74: 3607217714139784895
     second: mario_model_mg|sfbdn.001_mario_model_mg
-  - first:
-      74: 2686808129969998117
-    second: mario_model_mg|sfbdn.001_mario_model_mg.001
-  - first:
-      74: -8740519892950070998
-    second: mario_model_mg|sfbdn.001_mario_model_mg.002
   - first:
       74: -6739655315651484475
     second: mario_model_mg|sfbdn_mario_model_mg
   - first:
-      74: 5535726749012837763
-    second: mario_model_mg|sfbdn_mario_model_mg.001
-  - first:
-      74: -1150295566747197479
-    second: mario_model_mg|sfbdn_mario_model_mg.002
-  - first:
       74: -606222730622956717
     second: mario_model_mg|sffdn_mario_model_mg
-  - first:
-      74: -1502893717258650957
-    second: mario_model_mg|sffdn_mario_model_mg.001
-  - first:
-      74: 24531622339457695
-    second: mario_model_mg|sffdn_mario_model_mg.002
   - first:
       74: 3389466908724262603
     second: mario_model_mg|shell_in_mario_model_mg
   - first:
-      74: -2674387030421459032
-    second: mario_model_mg|shell_in_mario_model_mg.001
-  - first:
-      74: 1954926990317110800
-    second: mario_model_mg|shell_in_mario_model_mg.002
-  - first:
       74: 8830424003112048033
     second: mario_model_mg|shell_puton_cap_mario_model_mg
-  - first:
-      74: -5226384224095538760
-    second: mario_model_mg|shell_puton_cap_mario_model_mg.001
-  - first:
-      74: -196308510474650644
-    second: mario_model_mg|shell_puton_cap_mario_model_mg.002
   - first:
       74: 1569293704238665355
     second: mario_model_mg|shell_run_mario_model_mg
   - first:
-      74: -6220598813822806053
-    second: mario_model_mg|shell_run_mario_model_mg.001
-  - first:
-      74: 782409804033188863
-    second: mario_model_mg|shell_run_mario_model_mg.002
-  - first:
       74: 7974647496300294895
     second: mario_model_mg|shell_walk_mario_model_mg
-  - first:
-      74: -4935901481677398149
-    second: mario_model_mg|shell_walk_mario_model_mg.001
-  - first:
-      74: -6661638586276358443
-    second: mario_model_mg|shell_walk_mario_model_mg.002
   - first:
       74: -3632025214071532231
     second: mario_model_mg|shfdn_mario_model_mg
   - first:
-      74: 554050358968388566
-    second: mario_model_mg|shfdn_mario_model_mg.001
-  - first:
-      74: -8897182137048345864
-    second: mario_model_mg|shfdn_mario_model_mg.002
-  - first:
       74: -8035508470257889980
     second: mario_model_mg|shoot_mario_model_mg
-  - first:
-      74: 8832079333629506765
-    second: mario_model_mg|shoot_mario_model_mg.001
-  - first:
-      74: 5810055270991302977
-    second: mario_model_mg|shoot_mario_model_mg.002
   - first:
       74: -4883524246144893997
     second: mario_model_mg|sldct_mario_model_mg
   - first:
-      74: -8923679444028324259
-    second: mario_model_mg|sldct_mario_model_mg.001
-  - first:
-      74: -7666453737343594054
-    second: mario_model_mg|sldct_mario_model_mg.002
-  - first:
       74: -2426943010639917990
     second: mario_model_mg|slip_mario_model_mg
-  - first:
-      74: 3129382925942507338
-    second: mario_model_mg|slip_mario_model_mg.001
-  - first:
-      74: 7538434358161097345
-    second: mario_model_mg|slip_mario_model_mg.002
   - first:
       74: -5452333245361696871
     second: mario_model_mg|sliped_mario_model_mg
   - first:
-      74: -375806261717618709
-    second: mario_model_mg|sliped_mario_model_mg.001
-  - first:
-      74: -9195589434753811464
-    second: mario_model_mg|sliped_mario_model_mg.002
-  - first:
       74: -5679505279110639723
     second: mario_model_mg|slpbk_mario_model_mg
-  - first:
-      74: -1451360842160370222
-    second: mario_model_mg|slpbk_mario_model_mg.001
-  - first:
-      74: 4533245011929204488
-    second: mario_model_mg|slpbk_mario_model_mg.002
   - first:
       74: -651237421847295540
     second: mario_model_mg|slpla_mario_model_mg
   - first:
-      74: 7393612334193199378
-    second: mario_model_mg|slpla_mario_model_mg.001
-  - first:
-      74: 5538572509103232845
-    second: mario_model_mg|slpla_mario_model_mg.002
-  - first:
       74: 4280511111432561236
     second: mario_model_mg|small_jumped_mario_model_mg
-  - first:
-      74: -5734744714050803339
-    second: mario_model_mg|small_jumped_mario_model_mg.001
-  - first:
-      74: 1287177110545687978
-    second: mario_model_mg|small_jumped_mario_model_mg.002
   - first:
       74: 6236925687549855136
     second: mario_model_mg|small_wait.001_mario_model_mg
   - first:
-      74: -4519487651327519322
-    second: mario_model_mg|small_wait.001_mario_model_mg.001
-  - first:
-      74: 7938987193829029748
-    second: mario_model_mg|small_wait.001_mario_model_mg.002
-  - first:
       74: 4753526587231153590
     second: mario_model_mg|small_wait_mario_model_mg
-  - first:
-      74: -226016604570764459
-    second: mario_model_mg|small_wait_mario_model_mg.001
-  - first:
-      74: -2349521177943628458
-    second: mario_model_mg|small_wait_mario_model_mg.002
   - first:
       74: 970711893920912381
     second: mario_model_mg|spin_jump2_mario_model_mg
   - first:
-      74: 3737983249811615534
-    second: mario_model_mg|spin_jump2_mario_model_mg.001
-  - first:
-      74: -7188869378524259784
-    second: mario_model_mg|spin_jump2_mario_model_mg.002
-  - first:
       74: 3883160425014310264
     second: mario_model_mg|spin_jump_end_mario_model_mg
-  - first:
-      74: -4798626736545081468
-    second: mario_model_mg|spin_jump_end_mario_model_mg.001
-  - first:
-      74: -1167545047550621602
-    second: mario_model_mg|spin_jump_end_mario_model_mg.002
   - first:
       74: -4884769193553889469
     second: mario_model_mg|spin_jump_mario_model_mg
   - first:
-      74: -4563215091035677338
-    second: mario_model_mg|spin_jump_mario_model_mg.001
-  - first:
-      74: -7214248759115568145
-    second: mario_model_mg|spin_jump_mario_model_mg.002
-  - first:
       74: -5173327027728808548
     second: mario_model_mg|spin_jump_off_mario_model_mg
-  - first:
-      74: -8055232994436777925
-    second: mario_model_mg|spin_jump_off_mario_model_mg.001
-  - first:
-      74: -5018944924793877945
-    second: mario_model_mg|spin_jump_off_mario_model_mg.002
   - first:
       74: 5601553735753711936
     second: mario_model_mg|spin_jump_st_mario_model_mg
   - first:
-      74: 2367171334009054129
-    second: mario_model_mg|spin_jump_st_mario_model_mg.001
-  - first:
-      74: -7871959620671779863
-    second: mario_model_mg|spin_jump_st_mario_model_mg.002
-  - first:
       74: -5419873928327414062
     second: mario_model_mg|squat_start_mario_model_mg
-  - first:
-      74: 7316219010231686699
-    second: mario_model_mg|squat_start_mario_model_mg.001
-  - first:
-      74: -5914314336893198266
-    second: mario_model_mg|squat_start_mario_model_mg.002
   - first:
       74: -750860620355682747
     second: mario_model_mg|star_roll_mario_model_mg
   - first:
-      74: 7243788159463261385
-    second: mario_model_mg|star_roll_mario_model_mg.001
-  - first:
-      74: 2140458929160581005
-    second: mario_model_mg|star_roll_mario_model_mg.002
-  - first:
       74: 3027515081501020813
     second: mario_model_mg|stoop_mario_model_mg
-  - first:
-      74: 7137920940781252666
-    second: mario_model_mg|stoop_mario_model_mg.001
-  - first:
-      74: 4006109540365812109
-    second: mario_model_mg|stoop_mario_model_mg.002
   - first:
       74: -8651713946355606236
     second: mario_model_mg|struggle_mario_model_mg
   - first:
-      74: 3952864063342448032
-    second: mario_model_mg|struggle_mario_model_mg.001
-  - first:
-      74: 1008277382739841465
-    second: mario_model_mg|struggle_mario_model_mg.002
-  - first:
       74: -2700295295402222090
     second: mario_model_mg|swim_carry_mario_model_mg
-  - first:
-      74: -6011038228273217344
-    second: mario_model_mg|swim_carry_mario_model_mg.001
-  - first:
-      74: -3076759378939302775
-    second: mario_model_mg|swim_carry_mario_model_mg.002
   - first:
       74: 6260225766750361311
     second: mario_model_mg|swim_dead_mario_model_mg
   - first:
-      74: -2463763668565612699
-    second: mario_model_mg|swim_dead_mario_model_mg.001
-  - first:
-      74: 6318588605902531705
-    second: mario_model_mg|swim_dead_mario_model_mg.002
-  - first:
       74: 4218927476419115477
     second: mario_model_mg|swim_in_mario_model_mg
-  - first:
-      74: -2725314883614980202
-    second: mario_model_mg|swim_in_mario_model_mg.001
-  - first:
-      74: -1247920889848295039
-    second: mario_model_mg|swim_in_mario_model_mg.002
   - first:
       74: -6996624567624283022
     second: mario_model_mg|swim_mario_model_mg
   - first:
-      74: 3221702827325513707
-    second: mario_model_mg|swim_mario_model_mg.001
-  - first:
-      74: 8331907966431118105
-    second: mario_model_mg|swim_mario_model_mg.002
-  - first:
       74: 7593329295483854214
     second: mario_model_mg|swim_standing_mario_model_mg
-  - first:
-      74: -4167605751331589310
-    second: mario_model_mg|swim_standing_mario_model_mg.001
-  - first:
-      74: 4630605318561439349
-    second: mario_model_mg|swim_standing_mario_model_mg.002
   - first:
       74: -6639749099658376731
     second: mario_model_mg|swim_throw_mario_model_mg
   - first:
-      74: -8665121697082824309
-    second: mario_model_mg|swim_throw_mario_model_mg.001
-  - first:
-      74: -7859001154580029927
-    second: mario_model_mg|swim_throw_mario_model_mg.002
-  - first:
       74: 6741526534821496499
     second: mario_model_mg|swim_wait_mario_model_mg
-  - first:
-      74: 1592581094494091007
-    second: mario_model_mg|swim_wait_mario_model_mg.001
-  - first:
-      74: 8373724149000111681
-    second: mario_model_mg|swim_wait_mario_model_mg.002
   - first:
       74: 1899029997762392262
     second: mario_model_mg|swim_walk_mario_model_mg
   - first:
-      74: 6467685305203631389
-    second: mario_model_mg|swim_walk_mario_model_mg.001
-  - first:
-      74: 5786970028885444583
-    second: mario_model_mg|swim_walk_mario_model_mg.002
-  - first:
       74: 5108395655857044554
     second: mario_model_mg|tree_climb_mario_model_mg
-  - first:
-      74: -7145525604082561572
-    second: mario_model_mg|tree_climb_mario_model_mg.001
-  - first:
-      74: 6407941443829667139
-    second: mario_model_mg|tree_climb_mario_model_mg.002
   - first:
       74: 2968482096088430690
     second: mario_model_mg|tree_pose_mario_model_mg
   - first:
-      74: -563737219167955314
-    second: mario_model_mg|tree_pose_mario_model_mg.001
-  - first:
-      74: 6595611151907802110
-    second: mario_model_mg|tree_pose_mario_model_mg.002
-  - first:
       74: -5205324803000997510
     second: mario_model_mg|tree_start_mario_model_mg
-  - first:
-      74: 3865677705448107678
-    second: mario_model_mg|tree_start_mario_model_mg.001
-  - first:
-      74: 6602022031788677801
-    second: mario_model_mg|tree_start_mario_model_mg.002
   - first:
       74: 69139799405961086
     second: mario_model_mg|tree_wait_mario_model_mg
   - first:
-      74: 5494726046300911938
-    second: mario_model_mg|tree_wait_mario_model_mg.001
-  - first:
-      74: -3467513169469647209
-    second: mario_model_mg|tree_wait_mario_model_mg.002
-  - first:
       74: -6137667023173782246
     second: mario_model_mg|trned.001_mario_model_mg
-  - first:
-      74: -252859048631099993
-    second: mario_model_mg|trned.001_mario_model_mg.001
-  - first:
-      74: 2415562100718362505
-    second: mario_model_mg|trned.001_mario_model_mg.002
   - first:
       74: 7116477288254318498
     second: mario_model_mg|trned.002_mario_model_mg
   - first:
-      74: -1640742275212471243
-    second: mario_model_mg|trned.002_mario_model_mg.001
-  - first:
-      74: 3935239603979911779
-    second: mario_model_mg|trned.002_mario_model_mg.002
-  - first:
       74: 5278005849783141010
     second: mario_model_mg|trned_mario_model_mg
-  - first:
-      74: -2812494317396340512
-    second: mario_model_mg|trned_mario_model_mg.001
-  - first:
-      74: 3620241543765913304
-    second: mario_model_mg|trned_mario_model_mg.002
   - first:
       74: -4724745100310574011
     second: mario_model_mg|turn.001_mario_model_mg
   - first:
-      74: 9082767482858232418
-    second: mario_model_mg|turn.001_mario_model_mg.001
-  - first:
-      74: 2087982780390860804
-    second: mario_model_mg|turn.001_mario_model_mg.002
-  - first:
       74: -3379509125221557908
     second: mario_model_mg|turn.002_mario_model_mg
-  - first:
-      74: 7030266702238146719
-    second: mario_model_mg|turn.002_mario_model_mg.001
-  - first:
-      74: 5227124338376919654
-    second: mario_model_mg|turn.002_mario_model_mg.002
   - first:
       74: -8806834914126397278
     second: mario_model_mg|turn_mario_model_mg
   - first:
-      74: 5754133749146656971
-    second: mario_model_mg|turn_mario_model_mg.001
-  - first:
-      74: -392945928731369464
-    second: mario_model_mg|turn_mario_model_mg.002
-  - first:
       74: -282875677751622041
     second: mario_model_mg|w_jump1_mario_model_mg
-  - first:
-      74: -955441429840822822
-    second: mario_model_mg|w_jump1_mario_model_mg.001
-  - first:
-      74: 448919263877230052
-    second: mario_model_mg|w_jump1_mario_model_mg.002
   - first:
       74: 3234907859589691996
     second: mario_model_mg|w_jump2_mario_model_mg
   - first:
-      74: 2070797473212908308
-    second: mario_model_mg|w_jump2_mario_model_mg.001
-  - first:
-      74: 7817409606345926004
-    second: mario_model_mg|w_jump2_mario_model_mg.002
-  - first:
       74: 5495166318043064625
     second: mario_model_mg|w_jump_ed_mario_model_mg
-  - first:
-      74: 5130523992144740345
-    second: mario_model_mg|w_jump_ed_mario_model_mg.001
-  - first:
-      74: 7524992214936381402
-    second: mario_model_mg|w_jump_ed_mario_model_mg.002
   - first:
       74: -1853722300786890590
     second: mario_model_mg|wait.001_mario_model_mg
   - first:
-      74: 7178059238854328345
-    second: mario_model_mg|wait.001_mario_model_mg.001
-  - first:
-      74: 3350740875229085691
-    second: mario_model_mg|wait.001_mario_model_mg.002
-  - first:
       74: -3730154031935226871
     second: mario_model_mg|wait1_mario_model_mg
-  - first:
-      74: -5229518488309752018
-    second: mario_model_mg|wait1_mario_model_mg.001
-  - first:
-      74: -3620148271002138009
-    second: mario_model_mg|wait1_mario_model_mg.002
   - first:
       74: -7259070559559801307
     second: mario_model_mg|wait2_mario_model_mg
   - first:
-      74: 3071012721149766391
-    second: mario_model_mg|wait2_mario_model_mg.001
-  - first:
-      74: -735644947043494791
-    second: mario_model_mg|wait2_mario_model_mg.002
-  - first:
       74: 6318309594519002548
     second: mario_model_mg|wait_mario_model_mg
-  - first:
-      74: 7012750423544132400
-    second: mario_model_mg|wait_mario_model_mg.001
-  - first:
-      74: -985992408886451857
-    second: mario_model_mg|wait_mario_model_mg.002
   - first:
       74: -6766284335838999291
     second: mario_model_mg|walk.001_mario_model_mg
   - first:
-      74: 6904466556143833327
-    second: mario_model_mg|walk.001_mario_model_mg.001
-  - first:
-      74: -2449850334786033005
-    second: mario_model_mg|walk.001_mario_model_mg.002
-  - first:
       74: -3477633563843402521
     second: mario_model_mg|walk.002_mario_model_mg
-  - first:
-      74: -4931495131025426756
-    second: mario_model_mg|walk.002_mario_model_mg.001
-  - first:
-      74: -805503917910757233
-    second: mario_model_mg|walk.002_mario_model_mg.002
   - first:
       74: -7428763663350525389
     second: mario_model_mg|walk.003_mario_model_mg
   - first:
-      74: 6491394239336700058
-    second: mario_model_mg|walk.003_mario_model_mg.001
-  - first:
-      74: 6278337767660866836
-    second: mario_model_mg|walk.003_mario_model_mg.002
-  - first:
       74: -4408943822905645113
     second: mario_model_mg|walk_mario_model_mg
-  - first:
-      74: 3969733688591326482
-    second: mario_model_mg|walk_mario_model_mg.001
-  - first:
-      74: 5583612533961694840
-    second: mario_model_mg|walk_mario_model_mg.002
   - first:
       74: -5124563417981157578
     second: mario_model_mg|wall_wait_mario_model_mg
   - first:
-      74: 6842622126005942663
-    second: mario_model_mg|wall_wait_mario_model_mg.001
-  - first:
-      74: -5255410402442230271
-    second: mario_model_mg|wall_wait_mario_model_mg.002
-  - first:
       74: 4377112118885615437
     second: mario_model_mg|wall_walk_l_mario_model_mg
-  - first:
-      74: 6448076756373990868
-    second: mario_model_mg|wall_walk_l_mario_model_mg.001
-  - first:
-      74: 1824557501556996210
-    second: mario_model_mg|wall_walk_l_mario_model_mg.002
   - first:
       74: 7076989306178007346
     second: mario_model_mg|wall_walk_r_mario_model_mg
   - first:
-      74: -1222401666568629257
-    second: mario_model_mg|wall_walk_r_mario_model_mg.001
-  - first:
-      74: 7459682488879361014
-    second: mario_model_mg|wall_walk_r_mario_model_mg.002
-  - first:
       74: -7211780528181729974
     second: mario_model_mg|wjmp.001_mario_model_mg
-  - first:
-      74: 6125306683063655489
-    second: mario_model_mg|wjmp.001_mario_model_mg.001
-  - first:
-      74: 7556540957279511254
-    second: mario_model_mg|wjmp.001_mario_model_mg.002
   - first:
       74: -7267704058946746211
     second: mario_model_mg|wjmp_mario_model_mg
   - first:
-      74: -3896921855517797013
-    second: mario_model_mg|wjmp_mario_model_mg.001
-  - first:
-      74: -8558481192913700767
-    second: mario_model_mg|wjmp_mario_model_mg.002
-  - first:
       74: -5146864069086097593
     second: mario_model_mg|wsld_mario_model_mg
-  - first:
-      74: -2093908192420378869
-    second: mario_model_mg|wsld_mario_model_mg.001
-  - first:
-      74: -2853770508766736125
-    second: mario_model_mg|wsld_mario_model_mg.002
   - first:
       74: 3284718136830763456
     second: mario_model_mg|Y_run_mario_model_mg
   - first:
-      74: -6049029735066769068
-    second: mario_model_mg|Y_run_mario_model_mg.001
-  - first:
-      74: -8170919154018714377
-    second: mario_model_mg|Y_run_mario_model_mg.002
-  - first:
       74: 2001832274755481179
     second: mario_model_mg|Y_vs_lose_A_mario_model_mg
-  - first:
-      74: -7682876850068985590
-    second: mario_model_mg|Y_vs_lose_A_mario_model_mg.001
-  - first:
-      74: -4292464839698613489
-    second: mario_model_mg|Y_vs_lose_A_mario_model_mg.002
   - first:
       74: 6622982165150408331
     second: mario_model_mg|Y_vs_lose_B_mario_model_mg
   - first:
-      74: -1225330267183038935
-    second: mario_model_mg|Y_vs_lose_B_mario_model_mg.001
-  - first:
-      74: -2887623196135870227
-    second: mario_model_mg|Y_vs_lose_B_mario_model_mg.002
-  - first:
       74: -770478306567829044
     second: mario_model_mg|Y_vs_lose_C_mario_model_mg
-  - first:
-      74: 1079732321304407620
-    second: mario_model_mg|Y_vs_lose_C_mario_model_mg.001
-  - first:
-      74: 7710270911704867956
-    second: mario_model_mg|Y_vs_lose_C_mario_model_mg.002
   - first:
       74: -1820205331145368567
     second: mario_model_mg|Y_vs_win_wait_mario_model_mg
   - first:
-      74: -8961596320059104028
-    second: mario_model_mg|Y_vs_win_wait_mario_model_mg.001
-  - first:
-      74: -4134271898732277598
-    second: mario_model_mg|Y_vs_win_wait_mario_model_mg.002
-  - first:
       74: 5049626626200593287
     second: mario_model_mg|Y_wait_mario_model_mg
-  - first:
-      74: 1776244213911466602
-    second: mario_model_mg|Y_wait_mario_model_mg.001
-  - first:
-      74: 7196968942033846599
-    second: mario_model_mg|Y_wait_mario_model_mg.002
   - first:
       74: 8229965988682334313
     second: mario_model_mg|zero_g_jump2_mario_model_mg
   - first:
-      74: 6896469531487670021
-    second: mario_model_mg|zero_g_jump2_mario_model_mg.001
-  - first:
-      74: 7751418476928853539
-    second: mario_model_mg|zero_g_jump2_mario_model_mg.002
-  - first:
       74: 2560887889026339759
     second: mario_model_mg|zero_g_jump_ed_mario_model_mg
-  - first:
-      74: 1212074897516245103
-    second: mario_model_mg|zero_g_jump_ed_mario_model_mg.001
-  - first:
-      74: 4300842113316903883
-    second: mario_model_mg|zero_g_jump_ed_mario_model_mg.002
   - first:
       74: 7012642237042667242
     second: mario_model_mg|zero_g_jump_mario_model_mg
   - first:
-      74: 9186447015034678582
-    second: mario_model_mg|zero_g_jump_mario_model_mg.001
-  - first:
-      74: 8981401355013825004
-    second: mario_model_mg|zero_g_jump_mario_model_mg.002
-  - first:
       74: -2133009574828120171
     second: mario_model_mg|zero_g_walk_mario_model_mg
+  externalObjects:
   - first:
-      74: -2147473394327110783
-    second: mario_model_mg|zero_g_walk_mario_model_mg.001
-  - first:
-      74: -991090709703534525
-    second: mario_model_mg|zero_g_walk_mario_model_mg.002
-  externalObjects: {}
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: all
+    second: {fileID: 2100000, guid: 52016aa044ec17841a3da1b9a81522cc, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 2
+    materialName: 0
     materialSearch: 1
     materialLocation: 1
   animations:
@@ -2016,15 +737,15 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: mario_model_mg
+    rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
