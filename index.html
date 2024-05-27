@@ -7,88 +7,73 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
             background-color: #f0f0f0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1em;
-            text-align: center;
-        }
-        nav {
             display: flex;
             justify-content: center;
-            background-color: #333;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
-        nav a {
-            color: white;
-            padding: 14px 20px;
+
+        .container {
+            text-align: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+            .container img {
+                display: block;
+                margin: 0 auto 20px;
+                width: 100%;
+                max-width: 600px;
+                height: auto;
+            }
+
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007BFF;
             text-decoration: none;
-            text-align: center;
+            border-radius: 5px;
+            transition: background-color 0.3s;
         }
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        main {
-            padding: 20px;
-        }
-        .content {
-            background-color: white;
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 800px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
+
+            .button:hover {
+                background-color: #0056b3;
+            }
+
+            .button.github {
+                background-color: #333;
+            }
+
+                .button.github:hover {
+                    background-color: #222;
+                }
+
+            .button.discord {
+                background-color: #7289DA;
+            }
+
+                .button.discord:hover {
+                    background-color: #5a6bb7;
+                }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>NSLB - Moddimation VS Lust</h1>
-</header>
-
-<nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#features">Features</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<main>
-    <div class="content">
-        <h2>Welcome to NSLB - Moddimation VS Lust</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat.</p>
-        
-        <h3>About Moddimation VS Lust</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum turpis quis dui consequat, ac scelerisque massa interdum. Proin nec massa odio. Integer at vehicula enim, nec lacinia arcu. Quisque vestibulum arcu sed sapien blandit, a fermentum nisl varius.</p>
-        
-        <h3>Features</h3>
-        <ul>
-            <li>Feature 1: Description of feature 1.</li>
-            <li>Feature 2: Description of feature 2.</li>
-            <li>Feature 3: Description of feature 3.</li>
-        </ul>
-        
-        <h3>Contact Us</h3>
-        <p>If you have any questions, please contact us at <a href="mailto:info@nsbm-vslust.com">info@nsbm-vslust.com</a>.</p>
+    <div class="container">
+        <img src="https://cdn.discordapp.com/attachments/694545221559779378/1244732058421432391/Title.png?ex=66562e90&is=6654dd10&hm=50d86d86ebe1915cd0729da596d742d0d74051639f2f73b9128458749114f45b&" alt="NSLB - Moddimation VS Lust">
+        <a href="https://github.com/arianlust/NSLB-ModdimationVSLust/releases/latest" class="button">Download PC</a>
+        <a href="https://github.com/ArianLust/NSLB-Android/releases/latest" class="button">Download Android</a>
+        <a href="https://arianlust.itch.io/nslb-moddimationvslust" class="button">Play on Browser!</a>
+        <a href="https://github.com/ArianLust/NSLB-ModdimationVSLust" class="button github">GitHub</a>
+        <a href="https://discord.gg/27cGBQugrj" class="button discord">Discord</a>
     </div>
-</main>
-
-<footer>
-    <p>&copy; 2024 NSLB - Moddimation VS Lust. All rights reserved.</p>
-</footer>
 
 </body>
 </html>
