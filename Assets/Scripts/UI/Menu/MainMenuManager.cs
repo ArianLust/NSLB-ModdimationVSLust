@@ -25,7 +25,6 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     bool quit, validName;
     public GameObject connecting;
     public GameObject title, bg, mainMenu, optionsMenu, lobbyMenu, createLobbyPrompt, inLobbyMenu, creditsMenu, controlsMenu, privatePrompt, updateBox;
-    public GameObject[] levelCameraPositions; // REMOVE
     public List<string> levelScnNames;
     string levelNameLast = "ERROR";
     public GameObject sliderText, lobbyText, currentMaxPlayers, settingsPanel;
@@ -839,9 +838,9 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         };
         PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
     }
-	public void ChangeBackgroundRandom() {
+    public void ChangeBackgroundRandom() {
         ChangeBackground(Random.Range(0, levelScnNames.Count));
-	}
+    }
     public void ChangeBackground(int index) {
         if (levelNameLast == "ERROR") {
             levelNameLast = levelScnNames[index];
