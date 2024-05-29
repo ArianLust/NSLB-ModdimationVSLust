@@ -797,6 +797,8 @@ MonoBehaviour:
         type: 3}
     - m_Text: Waluigi
       m_Image: {fileID: -1803820175, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
+    - m_Text: Shy Guy
+      m_Image: {fileID: -1803820175, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -21603,29 +21605,6 @@ MonoBehaviour:
   controlsMenu: {fileID: 1325357895}
   privatePrompt: {fileID: 986802541}
   updateBox: {fileID: 2127289169}
-  levelCameraPositions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   levelScnNames:
   - GrasslandPV
   - BrickyardPV
@@ -21650,6 +21629,7 @@ MonoBehaviour:
   - SewersLevelPV
   - BonusLevelPV
   - GrasslandPV
+  - JungleLevelPV
   sliderText: {fileID: 1514315584}
   lobbyText: {fileID: 465989235}
   currentMaxPlayers: {fileID: 1732849129}
@@ -21753,6 +21733,7 @@ MonoBehaviour:
   - '[C] Sewers'
   - '[C] Mario Bros.'
   - '[C] Battlefield'
+  - '[C] Old Jungle'
   debugMaps: []
   colorManager: {fileID: 1983555074}
 --- !u!4 &887693662
@@ -32513,7 +32494,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 47220570}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.7468545
+  m_Size: 0.7470295
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

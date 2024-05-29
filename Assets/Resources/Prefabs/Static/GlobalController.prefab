@@ -267,6 +267,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d9dccd65df8095438391dc5d24a909f, type: 2}
   - {fileID: 11400000, guid: c5c0010f71e70b94e83fb946f47e8547, type: 2}
   - {fileID: 11400000, guid: a11cde1fac1c6b44e98b334c031a2257, type: 2}
+  - {fileID: 11400000, guid: fd4a247dfccfc5d46b3bc7ce5603be72, type: 2}
   rainbowGradient:
     serializedVersion: 2
     key0: {r: 1, g: 0.13913044, b: 0.11304349, a: 1}
@@ -305,6 +306,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8e33573d2c2ae7c4682fc6cdb5ea28cd, type: 2}
   - {fileID: 11400000, guid: 083779ae7bd92ab4295d580d757b328e, type: 2}
   - {fileID: 11400000, guid: 7deb380a54e067648b6eb7243094627f, type: 2}
+  - {fileID: 11400000, guid: 38bd41fd1567d064c93c7b3bd0f22959, type: 2}
   settings: {fileID: 0}
   controlsJson: 
   joinedAsSpectator: 0
