@@ -45,7 +45,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public string selectedRoom;
     public bool askedToJoin;
 
-    public Image overallColor, shirtColor;
+    public Image overallColor, shirtColor, hatColor;
     public GameObject palette, paletteDisabled;
 
     public ScrollRect settingsScroll;
@@ -1244,6 +1244,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             PlayerColors colors = GlobalController.Instance.skins[index].GetPlayerColors(data);
             overallColor.color = colors.overallsColor;
             shirtColor.color = colors.hatColor;
+            hatColor.color = colors.realHatColor;
         }
     }
 
@@ -1260,6 +1261,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             PlayerColors colors = GlobalController.Instance.skins[index].GetPlayerColors(Utils.GetCharacterData());
             overallColor.color = colors.overallsColor;
             shirtColor.color = colors.hatColor;
+            hatColor.color = colors.realHatColor;
         }
         PhotonNetwork.LocalPlayer.SetCustomProperties(prop);
 

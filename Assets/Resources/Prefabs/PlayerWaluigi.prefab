@@ -10733,6 +10733,7 @@ MonoBehaviour:
   glowMaterial: {fileID: 2100000, guid: 2cfa80f93994da44c9bdacad018e6ff5, type: 2}
   primaryColor: {r: 0, g: 0, b: 0, a: 0}
   secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+  thirdColor: {r: 0, g: 0, b: 0, a: 0}
   blinkDuration: 0.1
   pipeDuration: 2
   deathUpTime: 0.6
