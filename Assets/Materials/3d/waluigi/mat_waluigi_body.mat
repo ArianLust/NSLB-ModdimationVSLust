@@ -119,6 +119,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - HatColor_1: {r: 0, g: 0, b: 0, a: 0}
     - MultiplyColor: {r: 1, g: 1, b: 1, a: 0}
     - OutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - OverallsColor: {r: 0, g: 0, b: 0, a: 0}

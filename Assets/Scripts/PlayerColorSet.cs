@@ -24,6 +24,5 @@ public class PlayerColorSet : ScriptableObject {
 public class PlayerColors {
 
     public PlayerData player;
-    public Color hatColor = Color.black, overallsColor = Color.black;
-
+    public Color hatColor = Color.black, overallsColor = Color.black, realHatColor = Color.black;
 }

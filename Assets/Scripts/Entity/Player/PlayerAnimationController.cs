@@ -10,7 +10,7 @@ public class PlayerAnimationController : MonoBehaviourPun {
     [SerializeField] private ParticleSystem dust, sparkles, drillParticle, giantParticle, fireParticle;
     [SerializeField] private GameObject models, smallModel, largeModel, largeShellExclude, blueShell, propellerHelmet, propeller;
     [SerializeField] private Material glowMaterial;
-    [SerializeField] private Color primaryColor = Color.clear, secondaryColor = Color.clear;
+    [SerializeField] private Color primaryColor = Color.clear, secondaryColor = Color.clear, thirdColor = Color.clear;
     [SerializeField] [ColorUsage(true, false)] private Color? _glowColor = null;
     [SerializeField] private float blinkDuration = 0.1f, pipeDuration = 2f, deathUpTime = 0.6f, deathForce = 7f;
 
@@ -56,6 +56,7 @@ public class PlayerAnimationController : MonoBehaviourPun {
             PlayerColors colors = colorSet.GetPlayerColors(controller.character);
             primaryColor = colors.overallsColor.linear;
             secondaryColor = colors.hatColor.linear;
+			thirdColor = colors.realHatColor.linear;
         }
     }
 
@@ -269,6 +270,7 @@ public class PlayerAnimationController : MonoBehaviourPun {
         //Customizeable player color
         materialBlock.SetVector("OverallsColor", primaryColor);
         materialBlock.SetVector("ShirtColor", secondaryColor);
+        materialBlock.SetVector("HatColor", thirdColor);
 
         Vector3 giantMultiply = Vector3.one;
         if (controller.giantTimer > 0 && controller.giantTimer < 4) {
