@@ -797,8 +797,6 @@ MonoBehaviour:
         type: 3}
     - m_Text: Waluigi
       m_Image: {fileID: -1803820175, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
-    - m_Text: Shy Guy
-      m_Image: {fileID: -1803820175, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -10330,7 +10328,6 @@ MonoBehaviour:
   overlayPressed: {fileID: 590926491, guid: e8e1139e8fef253419394aa896aa1462, type: 3}
   shirt: {fileID: 561132515}
   overalls: {fileID: 1216270303}
-  hat: {fileID: 532515059}
   overlay: {fileID: 255671877}
   palette: {fileID: 0}
 --- !u!1 &428278030
@@ -21775,7 +21772,6 @@ MonoBehaviour:
   askedToJoin: 0
   overallColor: {fileID: 1385748054}
   shirtColor: {fileID: 584898080}
-  hatColor: {fileID: 1211474319}
   palette: {fileID: 1087430716}
   paletteDisabled: {fileID: 1622845023}
   settingsScroll: {fileID: 1144564698}
@@ -32649,8 +32645,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 47220571}
   m_HandleRect: {fileID: 47220570}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.7470295
+  m_Value: 1.0000002
+  m_Size: 0.7465856
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

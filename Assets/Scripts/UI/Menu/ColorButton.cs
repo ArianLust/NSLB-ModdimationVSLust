@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 public class ColorButton : MonoBehaviour, ISelectHandler, IDeselectHandler {
 
     [SerializeField] private Sprite overlayUnpressed, overlayPressed;
-    [SerializeField] private Image shirt, overalls, hat, overlay;
+    [SerializeField] private Image shirt, overalls, overlay;
 
     public PlayerColorSet palette;
 
@@ -13,14 +13,12 @@ public class ColorButton : MonoBehaviour, ISelectHandler, IDeselectHandler {
         if (palette == null) {
             shirt.enabled = false;
             overalls.enabled = false;
-            hat.enabled = false;
             return;
         }
 
         PlayerColors col = palette.GetPlayerColors(player);
         shirt.color = col.hatColor;
         overalls.color = col.overallsColor;
-        hat.color = col.realHatColor;
 
         overlay.enabled = false;
     }

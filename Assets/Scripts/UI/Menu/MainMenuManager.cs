@@ -45,7 +45,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public string selectedRoom;
     public bool askedToJoin;
 
-    public Image overallColor, shirtColor, hatColor;
+    public Image overallColor, shirtColor;
     public GameObject palette, paletteDisabled;
 
     public ScrollRect settingsScroll;
@@ -166,7 +166,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             PhotonNetwork.CurrentRoom.SetCustomProperties(new() {
                 [Enums.NetRoomProperties.HostName] = newMaster.GetUniqueNickname()
             });
-            LocalChatMessage("You are the room's host! You can click on player names to control your room, or use chat commands. Do /help for more help.", Color.red);
+            LocalChatMessage("You are the room's host!", Color.red);
         }
         UpdateSettingEnableStates();
     }
@@ -441,7 +441,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
 
             //version separation
             Match match = Regex.Match(Application.version, "^\\w*\\.\\w*\\.\\w*");
-            PhotonNetwork.NetworkingClient.AppVersion = match.Groups[0].Value;
+            PhotonNetwork.NetworkingClient.AppVersion = match.Groups[0].Value + "LustMod";
 
             string id = PlayerPrefs.GetString("id", null);
             string token = PlayerPrefs.GetString("token", null);
@@ -582,7 +582,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         characterDropdown.SetValueWithoutNotify(Utils.GetCharacterIndex());
 
         if (PhotonNetwork.IsMasterClient)
-            LocalChatMessage("You are the room's host! You can click on player names to control your room, or use chat commands. Do /help for more help.", Color.red);
+            LocalChatMessage("You are the room's host!", Color.red);
 
         Utils.GetCustomProperty(Enums.NetPlayerProperties.PlayerColor, out int value, PhotonNetwork.LocalPlayer.CustomProperties);
         SetPlayerColor(value);
@@ -1244,7 +1244,6 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             PlayerColors colors = GlobalController.Instance.skins[index].GetPlayerColors(data);
             overallColor.color = colors.overallsColor;
             shirtColor.color = colors.hatColor;
-            hatColor.color = colors.realHatColor;
         }
     }
 
@@ -1261,7 +1260,6 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             PlayerColors colors = GlobalController.Instance.skins[index].GetPlayerColors(Utils.GetCharacterData());
             overallColor.color = colors.overallsColor;
             shirtColor.color = colors.hatColor;
-            hatColor.color = colors.realHatColor;
         }
         PhotonNetwork.LocalPlayer.SetCustomProperties(prop);
 
