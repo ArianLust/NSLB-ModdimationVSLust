@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e5478bfbe63c3c46b392d3ca752690c, type: 3}
   m_Name: MusicLoadingB
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 187dc87d9dbd8084097b447820da1977, type: 3}
+  clip: {fileID: 8300000, guid: 4f168e73b17e74249b68b0341c233f51, type: 3}
   fastClip: {fileID: 0}
-  loopStartSample: 11.593
-  loopEndSample: 43.351
+  loopStartSample: 8.938
+  loopEndSample: 40.685
   showName: Minigames Results - New Super Mario Bros. - Nintendo
