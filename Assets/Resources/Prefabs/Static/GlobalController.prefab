@@ -267,7 +267,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d9dccd65df8095438391dc5d24a909f, type: 2}
   - {fileID: 11400000, guid: c5c0010f71e70b94e83fb946f47e8547, type: 2}
   - {fileID: 11400000, guid: a11cde1fac1c6b44e98b334c031a2257, type: 2}
-  - {fileID: 11400000, guid: fd4a247dfccfc5d46b3bc7ce5603be72, type: 2}
   rainbowGradient:
     serializedVersion: 2
     key0: {r: 1, g: 0.13913044, b: 0.11304349, a: 1}
