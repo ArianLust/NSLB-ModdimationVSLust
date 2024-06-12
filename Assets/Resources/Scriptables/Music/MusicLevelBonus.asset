@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MusicLevelBonus
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 65e9767d8a607ba4c8cb09c85492666a, type: 3}
-  fastClip: {fileID: 8300000, guid: 7c47a0be7c7d5aa48bd2cf291f5cfc99, type: 3}
-  loopStartSample: 3.017
-  loopEndSample: 39.002
-  showName: Koopa Cap - Mario Kart Wii - Nintendo
+  fastClip: {fileID: 8300000, guid: 081c934a4a40ab642b24ff096c8b22a3, type: 3}
+  loopStartSample: 5.04
+  loopEndSample: 56.242
+  showName: Athletic SML - New Super Mario Bros. - Lust

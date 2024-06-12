@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e5478bfbe63c3c46b392d3ca752690c, type: 3}
+  m_Name: MusicStar NSMB
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: fd0ea1decc39c36428a66a047cc70139, type: 3}
+  fastClip: {fileID: 8300000, guid: a6b9dc38a7f00534784fcd3ee56b9972, type: 3}
+  loopStartSample: 13.783
+  loopEndSample: 31.569
+  showName: Music Track
