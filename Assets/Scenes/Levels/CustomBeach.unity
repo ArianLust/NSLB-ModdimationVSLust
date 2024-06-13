@@ -7397,8 +7397,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5512989389984804167, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
+      propertyPath: musicList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512989389984804167, guid: 43d56bd18d06e9b4abe323618a20a228,
+        type: 3}
       propertyPath: musicList.Array.data[0]
       value: LevelBeach
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512989389984804167, guid: 43d56bd18d06e9b4abe323618a20a228,
+        type: 3}
+      propertyPath: musicList.Array.data[1]
+      value: BeachB
       objectReference: {fileID: 0}
     - target: {fileID: 6355964096291475732, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
