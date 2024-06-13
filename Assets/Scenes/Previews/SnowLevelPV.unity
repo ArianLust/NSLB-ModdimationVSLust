@@ -2815,7 +2815,7 @@ Transform:
   m_Children:
   - {fileID: 1333933435}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1600417594
 GameObject:
@@ -2848,7 +2848,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!199 &1600417596
 ParticleSystemRenderer:
@@ -7631,97 +7631,3 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!1001 &1786268874
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 2
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2074886471065804744, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: m_Mass
-      value: 0.11606278
-      objectReference: {fileID: 0}
-    - target: {fileID: 2074886471065804745, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: m_Name
-      value: BlueKoopa
-      objectReference: {fileID: 0}
-    - target: {fileID: 2074886471065804748, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2074886471065804748, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 2074886471065804748, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 2074886471065804748, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2074886471065804748, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2074886471065804748, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2074886471065804748, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2074886471065804748, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2074886471065804748, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2074886471065804748, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2074886471065804748, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8296659976516503275, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: serializableViews.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8296659976516503275, guid: 66003d5404cd23b469d9ff540b488311,
-        type: 3}
-      propertyPath: serializableViews.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2476915399165588063, guid: 66003d5404cd23b469d9ff540b488311, type: 3}
-    - {fileID: 2558873171136878799, guid: 66003d5404cd23b469d9ff540b488311, type: 3}
-    - {fileID: 9048354299867554477, guid: 66003d5404cd23b469d9ff540b488311, type: 3}
-    - {fileID: 7698180749470867861, guid: 66003d5404cd23b469d9ff540b488311, type: 3}
-    - {fileID: 555484830957607402, guid: 66003d5404cd23b469d9ff540b488311, type: 3}
-    - {fileID: 7504121886433879241, guid: 66003d5404cd23b469d9ff540b488311, type: 3}
-    - {fileID: 2277141691488210575, guid: 66003d5404cd23b469d9ff540b488311, type: 3}
-    - {fileID: 8296659976516503275, guid: 66003d5404cd23b469d9ff540b488311, type: 3}
-    m_AddedGameObjects: []
-  m_SourcePrefab: {fileID: 100100000, guid: 66003d5404cd23b469d9ff540b488311, type: 3}
