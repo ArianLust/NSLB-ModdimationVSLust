@@ -581,10 +581,39 @@ namespace NSMB.Utils {
             counter = Mathf.Clamp(counter - delta, min, max);
         }
 
-        public static Color GetRainbowColor() {
+        public static Color GetRainbowColor()
+        {
             double time = PhotonNetwork.Time * 0.1;
             time %= 1;
-            return GlobalController.Instance.rainbowGradient.Evaluate((float) time);
+            return GlobalController.Instance.rainbowGradient.Evaluate((float)time);
+        }
+
+            public static Color GetBlueColor()
+            {
+                double time = PhotonNetwork.Time * 0.1;
+                time %= 1;
+                return GlobalController.Instance.blueGradient.Evaluate((float)time);
+            }
+
+        public static Color GetGreenColor()
+        {
+            double time = PhotonNetwork.Time * 0.1;
+            time %= 1;
+            return GlobalController.Instance.greenGradient.Evaluate((float)time);
+        }
+
+        public static Color GetYellowColor()
+        {
+            double time = PhotonNetwork.Time * 0.1;
+            time %= 1;
+            return GlobalController.Instance.yellowGradient.Evaluate((float)time);
+        }
+
+        public static Color GetRedColor()
+        {
+            double time = PhotonNetwork.Time * 0.1;
+            time %= 1;
+            return GlobalController.Instance.redGradient.Evaluate((float)time);
         }
     }
 }

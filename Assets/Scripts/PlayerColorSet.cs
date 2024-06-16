@@ -25,5 +25,4 @@ public class PlayerColors {
 
     public PlayerData player;
     public Color hatColor = Color.black, overallsColor = Color.black;
-
 }

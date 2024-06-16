@@ -13,9 +13,10 @@ public class UIUpdater : MonoBehaviour {
     public GameObject playerTrackTemplate, starTrackTemplate;
     public PlayerController player;
     public Sprite storedItemNull;
-    public TMP_Text uiStars, uiCoins, uiDebug, uiLives, uiCountdown;
+    public TMP_Text uiStars, uiCoins, uiDebug, uiLives, uiCountdown, uiMusicName;
     public Image itemReserve, itemColor;
     public float pingSample = 0;
+    private float uiMusicNameTimer = 0;
 
     private Material timerMaterial;
     private GameObject starsParent, coinsParent, livesParent, timerParent;
@@ -66,6 +67,11 @@ public class UIUpdater : MonoBehaviour {
 
         UpdateStoredItemUI();
         UpdateTextUI();
+    }
+
+    public void SetMusicName(string name)
+    {
+        uiMusicName.text += name;
     }
 
     private void ToggleUI(bool hidden) {
@@ -126,7 +132,13 @@ public class UIUpdater : MonoBehaviour {
                 timerMaterial.SetColor("_Color", new Color32(255, gb, gb, 255));
             }
         } else {
-            timerParent.SetActive(false);
+            if(timerParent) timerParent.SetActive(false);
+        }
+
+        if (player && uiMusicName)
+        {
+            if (uiMusicNameTimer == 0) uiMusicNameTimer = Time.time;
+            if (Time.time - uiMusicNameTimer > 8) Destroy(uiMusicName.gameObject);
         }
     }
 

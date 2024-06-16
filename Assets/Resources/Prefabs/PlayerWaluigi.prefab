@@ -10733,6 +10733,7 @@ MonoBehaviour:
   glowMaterial: {fileID: 2100000, guid: 2cfa80f93994da44c9bdacad018e6ff5, type: 2}
   primaryColor: {r: 0, g: 0, b: 0, a: 0}
   secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+  thirdColor: {r: 0, g: 0, b: 0, a: 0}
   blinkDuration: 0.1
   pipeDuration: 2
   deathUpTime: 0.6
@@ -10799,7 +10800,7 @@ Animator:
   m_GameObject: {fileID: 4824223341387914446}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 024ceb223bceebd488dbc425555f4df0, type: 3}
-  m_Controller: {fileID: 9100000, guid: fa2b2fc953f5f444291d26193e0ac7fb, type: 2}
+  m_Controller: {fileID: 22100000, guid: 671e2adc5dbd26a45abdf5c18398a86e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -25,7 +25,8 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     bool quit, validName;
     public GameObject connecting;
     public GameObject title, bg, mainMenu, optionsMenu, lobbyMenu, createLobbyPrompt, inLobbyMenu, creditsMenu, controlsMenu, privatePrompt, updateBox;
-    public GameObject[] levelCameraPositions;
+    public List<string> levelScnNames;
+    string levelNameLast = "ERROR";
     public GameObject sliderText, lobbyText, currentMaxPlayers, settingsPanel;
     public TMP_Dropdown levelDropdown, characterDropdown;
     public RoomIcon selectedRoomIcon, privateJoinRoom;
@@ -151,7 +152,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public void OnPlayerPropertiesUpdate(Player player, Hashtable playerProperties) {
         // increase or remove when toadette or another character is added
         Utils.GetCustomProperty(Enums.NetRoomProperties.Debug, out bool debug);
-        if (PhotonNetwork.IsMasterClient && Utils.GetCharacterIndex(player) > 2 && !debug) {
+        if (PhotonNetwork.IsMasterClient && Utils.GetCharacterIndex(player) > 3 && !debug) {
             PhotonNetwork.CloseConnection(player);
         }
         UpdateSettingEnableStates();
@@ -165,7 +166,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             PhotonNetwork.CurrentRoom.SetCustomProperties(new() {
                 [Enums.NetRoomProperties.HostName] = newMaster.GetUniqueNickname()
             });
-            LocalChatMessage("You are the room's host! You can click on player names to control your room, or use chat commands. Do /help for more help.", Color.red);
+            LocalChatMessage("You are the room's host!", Color.red);
         }
         UpdateSettingEnableStates();
     }
@@ -428,7 +429,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             GlobalController.Instance.disconnectCause = null;
         }
 
-        Camera.main.transform.position = levelCameraPositions[Random.Range(0, maps.Count)].transform.position;
+        ChangeBackgroundRandom();
         levelDropdown.AddOptions(maps);
         LoadSettings(!PhotonNetwork.InRoom);
 
@@ -581,7 +582,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         characterDropdown.SetValueWithoutNotify(Utils.GetCharacterIndex());
 
         if (PhotonNetwork.IsMasterClient)
-            LocalChatMessage("You are the room's host! You can click on player names to control your room, or use chat commands. Do /help for more help.", Color.red);
+            LocalChatMessage("You are the room's host!", Color.red);
 
         Utils.GetCustomProperty(Enums.NetPlayerProperties.PlayerColor, out int value, PhotonNetwork.LocalPlayer.CustomProperties);
         SetPlayerColor(value);
@@ -837,11 +838,33 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         };
         PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
     }
+    public void ChangeBackgroundRandom() {
+        ChangeBackground(Random.Range(0, levelScnNames.Count));
+    }
+    public void ChangeBackground(int index) {
+        if (levelNameLast == "ERROR") {
+            levelNameLast = levelScnNames[index];
+            SceneManager.LoadSceneAsync(levelNameLast, LoadSceneMode.Additive);
+            return;
+        }
 
+        StartCoroutine("WaitChangeBackground", index);
+    }
+    IEnumerator WaitChangeBackground(int index)
+    {
+		string levelName = index <= levelScnNames.Count ? levelScnNames[index] : levelScnNames[0];
+		//check if index is out of range
+        yield return SceneManager.LoadSceneAsync(levelName, LoadSceneMode.Additive);
+        //wait for level loading
+
+        //unload scene once finished loading
+        yield return SceneManager.UnloadSceneAsync(levelNameLast);
+        levelNameLast = levelName;
+    }
     public void ChangeLevel(int index) {
         levelDropdown.SetValueWithoutNotify(index);
         LocalChatMessage("Map set to: " + levelDropdown.options[index].text, Color.red);
-        Camera.main.transform.position = levelCameraPositions[index].transform.position;
+        ChangeBackground(index);
     }
     public void SetLevelIndex() {
         if (!PhotonNetwork.IsMasterClient)
@@ -992,6 +1015,10 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
 
         PhotonNetwork.RaiseEvent((byte) Enums.NetEventIds.PlayerChatMessage, text, NetworkUtils.EventAll, SendOptions.SendReliable);
         StartCoroutine(SelectNextFrame(chatTextField));
+        sfx.PlayOneShot(Enums.Sounds.UI_Chat_Send.GetClip());
+    }
+    public void OnTypeText() {
+        sfx.PlayOneShot(Enums.Sounds.UI_Chat_Type.GetClip());
     }
 
     public void Kick(Player target) {
@@ -1187,9 +1214,12 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     }
 
     IEnumerator SelectNextFrame(TMP_InputField input) {
+        Debug.Log("TEXT TEST 0");
         yield return new WaitForEndOfFrame();
+        Debug.Log("TEXT TEST 1");
         input.text = "";
         input.ActivateInputField();
+        Debug.Log("TEXT TEST 2");
     }
 
     public void SwapCharacter(TMP_Dropdown dropdown) {

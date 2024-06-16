@@ -22,6 +22,8 @@ public class MusicRandomizer : MonoBehaviour {
         if (usedMusic == null) {
             Debug.Log("ERROR: Music could not be loaded! Trying default...");
             usedMusic = musicDefault;
+            Debug.Log("ERROR: Default Music could not be loaded! Check if set properly. Using \"LevelOverworld\"");
+	    if(usedMusic == null) LoadMusic("LevelOverworld");
         }
        
         Destroy(this);

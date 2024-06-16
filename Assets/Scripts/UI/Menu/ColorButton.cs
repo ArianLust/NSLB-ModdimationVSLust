@@ -19,6 +19,7 @@ public class ColorButton : MonoBehaviour, ISelectHandler, IDeselectHandler {
         PlayerColors col = palette.GetPlayerColors(player);
         shirt.color = col.hatColor;
         overalls.color = col.overallsColor;
+
         overlay.enabled = false;
     }
 

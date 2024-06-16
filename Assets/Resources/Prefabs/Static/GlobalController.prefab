@@ -265,6 +265,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0d680f03cc2ef92499c2324a50a756ac, type: 2}
   - {fileID: 11400000, guid: b1b956bde3f22394dbdfe3df8691e320, type: 2}
   - {fileID: 11400000, guid: 5d9dccd65df8095438391dc5d24a909f, type: 2}
+  - {fileID: 11400000, guid: c5c0010f71e70b94e83fb946f47e8547, type: 2}
+  - {fileID: 11400000, guid: a11cde1fac1c6b44e98b334c031a2257, type: 2}
   rainbowGradient:
     serializedVersion: 2
     key0: {r: 1, g: 0.13913044, b: 0.11304349, a: 1}
@@ -293,6 +295,122 @@ MonoBehaviour:
     atime7: 0
     m_Mode: 0
     m_NumColorKeys: 8
+    m_NumAlphaKeys: 2
+  blueGradient:
+    serializedVersion: 2
+    key0: {r: 0.20392159, g: 0.59607846, b: 0.8588236, a: 1}
+    key1: {r: 0.20392159, g: 0.59607846, b: 0.8588236, a: 1}
+    key2: {r: 0.1764706, g: 0.3137255, b: 1, a: 0}
+    key3: {r: 0.8060319, g: 0.32599998, b: 1, a: 0}
+    key4: {r: 0.8313726, g: 1, b: 0, a: 0}
+    key5: {r: 0.8313726, g: 1, b: 0, a: 0}
+    key6: {r: 0.13458417, g: 0.11372548, b: 1, a: 0}
+    key7: {r: 1, g: 0.13725491, b: 0.1137255, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 65535
+    ctime3: 65535
+    ctime4: 65535
+    ctime5: 65535
+    ctime6: 65535
+    ctime7: 65535
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  yellowGradient:
+    serializedVersion: 2
+    key0: {r: 0.9450981, g: 0.7686275, b: 0.058823533, a: 1}
+    key1: {r: 0.9450981, g: 0.7686275, b: 0.058823533, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 1}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 65535
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  redGradient:
+    serializedVersion: 2
+    key0: {r: 0.9058824, g: 0.29803923, b: 0.23529413, a: 1}
+    key1: {r: 0.9058824, g: 0.29803923, b: 0.23529413, a: 1}
+    key2: {r: 0.17511517, g: 0.31336403, b: 1, a: 1}
+    key3: {r: 0, g: 1, b: 0.6313726, a: 0}
+    key4: {r: 0.8313726, g: 1, b: 0, a: 0}
+    key5: {r: 1, g: 1, b: 1, a: 0}
+    key6: {r: 1, g: 0.13913044, b: 0.11304349, a: 0}
+    key7: {r: 1, g: 0.13725491, b: 0.1137255, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 65535
+    ctime3: 65535
+    ctime4: 65535
+    ctime5: 65535
+    ctime6: 65535
+    ctime7: 65535
+    atime0: 0
+    atime1: 65535
+    atime2: 65535
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  greenGradient:
+    serializedVersion: 2
+    key0: {r: 0.29803923, g: 1, b: 0, a: 1}
+    key1: {r: 0.091415524, g: 1, b: 0, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 1
+    m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   ndsCanvas: {fileID: 1955773772637164072}
   fourByThreeImage: {fileID: 0}

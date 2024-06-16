@@ -34,8 +34,28 @@ public class ScoreboardEntry : MonoBehaviour {
         CheckForTextUpdate();
 
         if (rainbowEnabled)
-            nameText.color = Utils.GetRainbowColor();
-    }
+            if (rainbowEnabled)
+            {
+                {
+                    if (nameText.text.Contains("Lust") || nameText.text.Contains("Moddimation"))
+                    {
+                        nameText.color = Utils.GetRainbowColor();
+                    }
+                    else if (nameText.text.Contains("Windows10V") || nameText.text.Contains("mapmaker2"))
+                    {
+                        nameText.color = Utils.GetBlueColor();
+                    }
+                    else if (nameText.text.Contains("MEDDOURK95") || nameText.text.Contains("playtester2"))
+                    {
+                        nameText.color = Utils.GetRedColor();
+                    }
+                    else if (nameText.text.Contains("MrYoshiNL") || nameText.text.Contains("FrostyCake"))
+                    {
+                        nameText.color = Utils.GetYellowColor();
+                    }
+                }
+            }
+            }
 
     public void CheckForTextUpdate() {
         if (!target) {

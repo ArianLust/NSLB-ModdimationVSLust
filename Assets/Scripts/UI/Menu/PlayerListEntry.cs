@@ -29,11 +29,30 @@ public class PlayerListEntry : MonoBehaviour {
             Destroy(blockerInstance);
     }
 
-    public void Update() {
-        nameText.color = Utils.GetRainbowColor();
-    }
+    public void Update()
+    {
+        
+            if (nameText.text.Contains("Lust") || nameText.text.Contains("Moddimation"))
+            {
+                nameText.color = Utils.GetRainbowColor();
+            }
+            else if (nameText.text.Contains("Windows10V") || nameText.text.Contains("mapmaker2"))
+            {
+                nameText.color = Utils.GetBlueColor();
+            }
+            else if (nameText.text.Contains("MEDDOURK95") || nameText.text.Contains("playtester2"))
+            {
+                nameText.color = Utils.GetRedColor();
+            }
+            else if (nameText.text.Contains("MrYoshiNL") || nameText.text.Contains("FrostyCake"))
+            {
+                nameText.color = Utils.GetYellowColor();
+            }
+        }
 
-    public void UpdateText() {
+
+
+            public void UpdateText() {
         colorStrip.color = Utils.GetPlayerColor(player, 1f, 1f);
         enabled = player.HasRainbowName();
 
