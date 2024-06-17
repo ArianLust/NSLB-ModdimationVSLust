@@ -76,7 +76,7 @@ public class UserNametag : MonoBehaviour {
             {
                 text.color = Utils.GetBlueColor();
             }
-            else if (text.text.Contains("MEDDOURK95") || text.text.Contains("playtester2"))
+            else if (text.text.Contains("MEDDOURK95") || text.text.Contains("jorjorbinks"))
             {
                 text.color = Utils.GetRedColor();
             }

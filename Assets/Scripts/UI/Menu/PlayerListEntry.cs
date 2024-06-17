@@ -40,7 +40,7 @@ public class PlayerListEntry : MonoBehaviour {
             {
                 nameText.color = Utils.GetBlueColor();
             }
-            else if (nameText.text.Contains("MEDDOURK95") || nameText.text.Contains("playtester2"))
+            else if (nameText.text.Contains("MEDDOURK95") || nameText.text.Contains("jorjorbinks"))
             {
                 nameText.color = Utils.GetRedColor();
             }
