@@ -218,6 +218,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         AttemptToUpdateProperty<int>(updatedProperties, Enums.NetRoomProperties.Time, ChangeTime);
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.DrawTime, ChangeDrawTime);
         AttemptToUpdateProperty<string>(updatedProperties, Enums.NetRoomProperties.HostName, ChangeLobbyHeader);
+        AttemptToUpdateProperty<float>(updatedProperties, Enums.NetRoomProperties.GameSpeed, ChangeGameSpeed);
     }
 
     public void ChangeDebugState(bool enabled) {
@@ -1480,7 +1481,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             int.TryParse(split[1], out seconds);
         } else {
             minutes = 0;
-            int.TryParse(time, out seconds);
+            int.TryParse(time, out seconds); 
         }
 
         if (seconds >= 60) {
@@ -1495,4 +1496,8 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public void ChangeLobbyHeader(string name) {
         SetText(lobbyText, $"{name.ToValidUsername()}'s Lobby", true);
     }
+    public void ChangeGameSpeed(float speed) {
+        Time.timeScale = speed;
+    }
+
 }
