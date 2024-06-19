@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: mat_miibumm_face
-  m_Shader: {fileID: -6465566751694194690, guid: cc5645667770c9c44af52a452d76a115,
+  m_Shader: {fileID: -6465566751694194690, guid: 3a7ba05fad3e31940b34c1861c09dc7f,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
