@@ -614,8 +614,7 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
         SceneManager.LoadScene("MainMenu");
     }
 
-    public void SetPlaySpeed(float speed)
-    {
+    public void SetPlaySpeed(float speed) {
         if (!PhotonNetwork.IsMasterClient) 
             return;
         
@@ -623,6 +622,7 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
             [Enums.NetRoomProperties.GameSpeed] = speed
         };
         PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
+        Time.timeScale = speed;
     }
 
     private IEnumerator BigStarRespawn(bool wait = true) {
@@ -653,6 +653,8 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
             remainingSpawns.RemoveAt(index);
             break;
         }
+        // TODO: TEST: TMP: remove
+        SetPlaySpeed(0.4f); 
     }
 
     public void Update() {

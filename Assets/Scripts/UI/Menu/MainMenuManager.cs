@@ -1499,6 +1499,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     }
     public void ChangeGameSpeed(float speed) {
         Time.timeScale = speed;
+        Debug.Log("Set game speed to "+speed);
     }
 
 }
