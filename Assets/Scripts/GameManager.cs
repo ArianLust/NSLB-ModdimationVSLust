@@ -653,8 +653,6 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
             remainingSpawns.RemoveAt(index);
             break;
         }
-        // TODO: TEST: TMP: remove
-        SetPlaySpeed(0.4f); 
     }
 
     public void Update() {
@@ -698,6 +696,10 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
 
         if (musicEnabled)
             HandleMusic();
+
+        // TMP
+        if(Input.GetKey(KeyCode.V))
+            SetPlaySpeed(0.4f);
     }
 
     public void CreateNametag(PlayerController controller) {
