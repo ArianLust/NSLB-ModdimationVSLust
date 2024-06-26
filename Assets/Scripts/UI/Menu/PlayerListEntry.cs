@@ -40,11 +40,11 @@ public class PlayerListEntry : MonoBehaviour {
             {
                 nameText.color = Utils.GetBlueColor();
             }
-            else if (nameText.text.Contains("MEDDOURK95") || nameText.text.Contains("jorjorbinks"))
-            {
+        else if (nameText.text.Contains("MEDDOURK95") || nameText.text.Contains("jorjorbinks") || nameText.text.Contains("NandDollLover") || nameText.text.Contains("VibriIsHot"))
+        {
                 nameText.color = Utils.GetRedColor();
             }
-            else if (nameText.text.Contains("MrYoshiNL") || nameText.text.Contains("FrostyCake"))
+            else if (nameText.text.Contains("MrYoshiNL") || nameText.text.Contains("FrostyCake") || nameText.text.Contains("BluCor"))
             {
                 nameText.color = Utils.GetYellowColor();
             }

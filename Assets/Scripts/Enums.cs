@@ -74,7 +74,7 @@ public static class Enums {
         [SoundData("player/drill")]                             Player_Sound_Drill = 21,
         [SoundData("player/groundpound_start")]                 Player_Sound_GroundpoundStart = 22,
         [SoundData("player/groundpound_landing")]               Player_Sound_GroundpoundLanding = 23,
-        [SoundData("player/jump")]                              Player_Sound_Jump = 24,
+        [SoundData("character/{char}/jump")]                              Player_Sound_Jump = 24,
         [SoundData("player/lava_hiss")]                         Player_Sound_LavaHiss = 90,
         [SoundData("player/powerup")]                           Player_Sound_PowerupCollect = 16, //HARDCODED: DO NOT CHANGE WITHOUT CHANGING POWERUPS SCRIPTABLES
         [SoundData("player/powerup_reserve_store")]             Player_Sound_PowerupReserveStore = 25,
@@ -85,9 +85,9 @@ public static class Enums {
         [SoundData("player/walljump")]                          Player_Sound_WallJump = 29,
         [SoundData("player/wallslide")]                         Player_Sound_WallSlide = 30,
 
-        [SoundData("player/walk/grass")]                        Player_Walk_Grass = 31,
-        [SoundData("player/walk/snow")]                         Player_Walk_Snow = 32,
-        [SoundData("player/walk/sand")]                         Player_Walk_Sand = 93,
+        [SoundData("character/{char}/walk/grass")]                        Player_Walk_Grass = 31,
+        [SoundData("character/{char}/walk/snow")]                         Player_Walk_Snow = 32,
+        [SoundData("character/{char}/walk/sand")]                         Player_Walk_Sand = 93,
 
         [SoundData("character/{char}/doublejump")]              Player_Voice_DoubleJump = 33,
         [SoundData("character/{char}/lava_death")]              Player_Voice_LavaDeath = 34,

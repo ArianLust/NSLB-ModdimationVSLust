@@ -76,11 +76,11 @@ public class UserNametag : MonoBehaviour {
             {
                 text.color = Utils.GetBlueColor();
             }
-            else if (text.text.Contains("MEDDOURK95") || text.text.Contains("jorjorbinks"))
+            else if (text.text.Contains("MEDDOURK95") || text.text.Contains("jorjorbinks") || text.text.Contains("NandDollLover") || text.text.Contains("VibriIsHot"))
             {
                 text.color = Utils.GetRedColor();
             }
-            else if (text.text.Contains("MrYoshiNL") || text.text.Contains("FrostyCake"))
+            else if (text.text.Contains("MrYoshiNL") || text.text.Contains("FrostyCake") || text.text.Contains("BluCor"))
             {
                 text.color = Utils.GetYellowColor();
             }

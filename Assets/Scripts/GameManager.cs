@@ -621,8 +621,8 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
         Hashtable properties = new() {
             [Enums.NetRoomProperties.GameSpeed] = speed
         };
-        PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
         Time.timeScale = speed;
+        PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
     }
 
     private IEnumerator BigStarRespawn(bool wait = true) {
@@ -653,8 +653,6 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
             remainingSpawns.RemoveAt(index);
             break;
         }
-        // TODO: TEST: TMP: remove
-        SetPlaySpeed(0.4f); 
     }
 
     public void Update() {

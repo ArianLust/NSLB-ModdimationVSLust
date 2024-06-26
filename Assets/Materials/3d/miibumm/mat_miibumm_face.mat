@@ -93,7 +93,7 @@ Material:
     m_Floats:
     - FireFlower: 0
     - Hat: 0
-    - IsEyeTexture: 0
+    - IsEyeTexture: 1
     - OutlineSize: 0.01
     - PowerupState: 0
     - _AlphaClip: 0

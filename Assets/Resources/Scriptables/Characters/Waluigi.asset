@@ -19,5 +19,5 @@ MonoBehaviour:
     type: 3}
   loadingBigSprite: {fileID: 1395420228, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
   readySprite: {fileID: -1803820175, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
-  smallOverrides: {fileID: 22100000, guid: 347b7f77a47c4db4b85584fbfdecf63b, type: 2}
-  largeOverrides: {fileID: 9100000, guid: fa2b2fc953f5f444291d26193e0ac7fb, type: 2}
+  smallOverrides: {fileID: 22100000, guid: a1854453357bb034e89ec419b0f57906, type: 2}
+  largeOverrides: {fileID: 22100000, guid: 671e2adc5dbd26a45abdf5c18398a86e, type: 2}

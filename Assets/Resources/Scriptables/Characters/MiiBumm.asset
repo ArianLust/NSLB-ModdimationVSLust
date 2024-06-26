@@ -14,12 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundFolder: miibumm
   prefab: PlayerMiiBumm
-  uistring: <sprite=49>
-  emblemstring: <sprite=65>
-  loadingSmallSprite: {fileID: -1248723344, guid: a7245cae141f3ee449147539ebd2a2c9,
+  uistring: <sprite=50>
+  loadingSmallSprite: {fileID: -1611416330, guid: a7245cae141f3ee449147539ebd2a2c9,
     type: 3}
-  loadingBigSprite: {fileID: 1395420228, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
-  readySprite: {fileID: -1427367417, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
-  smallOverrides: {fileID: 22100000, guid: 9ec04357def8d1d44a8a5dc2c50574af, type: 2}
+  loadingBigSprite: {fileID: 1676821056, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
+  readySprite: {fileID: -1130345836, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
+  smallOverrides: {fileID: 22100000, guid: 5489fefa3ea4afb42b662abf391875a6, type: 2}
   largeOverrides: {fileID: 22100000, guid: 6d9a1dcda94e03c46b78e4207c985bbb, type: 2}
-  penguinOverrides: {fileID: 22100000, guid: 6d9a1dcda94e03c46b78e4207c985bbb, type: 2}
