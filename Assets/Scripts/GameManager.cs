@@ -614,6 +614,17 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void SetPlaySpeed(float speed) {
+        if (!PhotonNetwork.IsMasterClient) 
+            return;
+        
+        Hashtable properties = new() {
+            [Enums.NetRoomProperties.GameSpeed] = speed
+        };
+        Time.timeScale = speed;
+        PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
+    }
+
     private IEnumerator BigStarRespawn(bool wait = true) {
         if (wait)
             yield return new WaitForSeconds(10.4f - playerCount / 5f);
@@ -685,6 +696,10 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
 
         if (musicEnabled)
             HandleMusic();
+
+        // TMP
+        if(Input.GetKey(KeyCode.V))
+            SetPlaySpeed(0.4f);
     }
 
     public void CreateNametag(PlayerController controller) {

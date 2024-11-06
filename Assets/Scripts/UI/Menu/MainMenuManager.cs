@@ -218,6 +218,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         AttemptToUpdateProperty<int>(updatedProperties, Enums.NetRoomProperties.Time, ChangeTime);
         AttemptToUpdateProperty<bool>(updatedProperties, Enums.NetRoomProperties.DrawTime, ChangeDrawTime);
         AttemptToUpdateProperty<string>(updatedProperties, Enums.NetRoomProperties.HostName, ChangeLobbyHeader);
+        AttemptToUpdateProperty<float>(updatedProperties, Enums.NetRoomProperties.GameSpeed, ChangeGameSpeed);
     }
 
     public void ChangeDebugState(bool enabled) {
@@ -441,7 +442,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
 
             //version separation
             Match match = Regex.Match(Application.version, "^\\w*\\.\\w*\\.\\w*");
-            PhotonNetwork.NetworkingClient.AppVersion = match.Groups[0].Value;
+            PhotonNetwork.NetworkingClient.AppVersion = match.Groups[0].Value + "ModdimationVSLust";
 
             string id = PlayerPrefs.GetString("id", null);
             string token = PlayerPrefs.GetString("token", null);
@@ -612,10 +613,16 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         settingsScroll.verticalNormalizedPosition = 1;
     }
 
-
-    public void OpenTitleScreen() {
-        title.SetActive(true);
+    public void EnableBG(int width = 6){
+        bg.SetActive(true);
+        bg.GetComponent<RectTransform>().sizeDelta = new Vector2(width*100, bg.GetComponent<RectTransform>().sizeDelta.y);
+    }
+    public void DisableBG(){
         bg.SetActive(false);
+    }
+
+    public void DisableAllMenu() {
+        title.SetActive(false);
         mainMenu.SetActive(false);
         optionsMenu.SetActive(false);
         controlsMenu.SetActive(false);
@@ -624,36 +631,28 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         inLobbyMenu.SetActive(false);
         creditsMenu.SetActive(false);
         privatePrompt.SetActive(false);
+    }
+
+    public void OpenTitleScreen() {
+        DisableAllMenu();
+        DisableBG();
+        title.SetActive(true);
 
         EventSystem.current.SetSelectedGameObject(mainMenuSelected);
     }
     public void OpenMainMenu() {
-        title.SetActive(false);
-        bg.SetActive(true);
-        mainMenu.SetActive(true);
-        optionsMenu.SetActive(false);
-        controlsMenu.SetActive(false);
-        lobbyMenu.SetActive(false);
-        createLobbyPrompt.SetActive(false);
-        inLobbyMenu.SetActive(false);
-        creditsMenu.SetActive(false);
-        privatePrompt.SetActive(false);
+        DisableAllMenu();
         updateBox.SetActive(false);
+        EnableBG();
+        mainMenu.SetActive(true);
 
         EventSystem.current.SetSelectedGameObject(mainMenuSelected);
 
     }
     public void OpenLobbyMenu() {
-        title.SetActive(false);
-        bg.SetActive(true);
-        mainMenu.SetActive(false);
-        optionsMenu.SetActive(false);
-        controlsMenu.SetActive(false);
+        DisableAllMenu();
+        EnableBG();
         lobbyMenu.SetActive(true);
-        createLobbyPrompt.SetActive(false);
-        inLobbyMenu.SetActive(false);
-        creditsMenu.SetActive(false);
-        privatePrompt.SetActive(false);
 
         foreach (RoomIcon room in currentRooms.Values)
             room.UpdateUI(room.room);
@@ -661,74 +660,40 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         EventSystem.current.SetSelectedGameObject(lobbySelected);
     }
     public void OpenCreateLobby() {
-        title.SetActive(false);
-        bg.SetActive(true);
-        mainMenu.SetActive(false);
-        optionsMenu.SetActive(false);
-        controlsMenu.SetActive(false);
+        DisableAllMenu();
+        EnableBG();
         lobbyMenu.SetActive(true);
         createLobbyPrompt.SetActive(true);
-        inLobbyMenu.SetActive(false);
-        creditsMenu.SetActive(false);
-        privatePrompt.SetActive(false);
 
         privateToggle.isOn = false;
 
         EventSystem.current.SetSelectedGameObject(createLobbySelected);
     }
     public void OpenOptions() {
-        title.SetActive(false);
-        bg.SetActive(true);
-        mainMenu.SetActive(false);
+        DisableAllMenu();
+        EnableBG(8);
         optionsMenu.SetActive(true);
-        controlsMenu.SetActive(false);
-        lobbyMenu.SetActive(false);
-        createLobbyPrompt.SetActive(false);
-        inLobbyMenu.SetActive(false);
-        creditsMenu.SetActive(false);
-        privatePrompt.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(optionsSelected);
     }
     public void OpenControls() {
-        title.SetActive(false);
-        bg.SetActive(true);
+        DisableAllMenu();
+        EnableBG();
         mainMenu.SetActive(false);
-        optionsMenu.SetActive(false);
         controlsMenu.SetActive(true);
-        lobbyMenu.SetActive(false);
-        createLobbyPrompt.SetActive(false);
-        inLobbyMenu.SetActive(false);
-        creditsMenu.SetActive(false);
-        privatePrompt.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(controlsSelected);
     }
     public void OpenCredits() {
-        title.SetActive(false);
-        bg.SetActive(true);
-        mainMenu.SetActive(false);
-        optionsMenu.SetActive(false);
-        controlsMenu.SetActive(false);
-        lobbyMenu.SetActive(false);
-        createLobbyPrompt.SetActive(false);
-        inLobbyMenu.SetActive(false);
-        creditsMenu.SetActive(true);
-        privatePrompt.SetActive(false);
+        DisableAllMenu();
+        EnableBG();
 
         EventSystem.current.SetSelectedGameObject(creditsSelected);
     }
     public void OpenInLobbyMenu() {
-        title.SetActive(false);
-        bg.SetActive(true);
-        mainMenu.SetActive(false);
-        optionsMenu.SetActive(false);
-        controlsMenu.SetActive(false);
-        lobbyMenu.SetActive(false);
-        createLobbyPrompt.SetActive(false);
+        DisableAllMenu();
+        EnableBG();
         inLobbyMenu.SetActive(true);
-        creditsMenu.SetActive(false);
-        privatePrompt.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(currentLobbySelected);
     }
@@ -1371,7 +1336,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     }
 
     public void OpenDownloadsPage() {
-        Application.OpenURL("https://github.com/ipodtouch0218/NSMB-MarioVsLuigi/releases/latest");
+        Application.OpenURL("https://github.com/arianlust/NSLB-ModdimationVSLust/releases/latest");
         OpenMainMenu();
     }
 
@@ -1481,7 +1446,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             int.TryParse(split[1], out seconds);
         } else {
             minutes = 0;
-            int.TryParse(time, out seconds);
+            int.TryParse(time, out seconds); 
         }
 
         if (seconds >= 60) {
@@ -1496,4 +1461,9 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public void ChangeLobbyHeader(string name) {
         SetText(lobbyText, $"{name.ToValidUsername()}'s Lobby", true);
     }
+    public void ChangeGameSpeed(float speed) {
+        Time.timeScale = speed;
+        Debug.Log("Set game speed to "+speed);
+    }
+
 }
