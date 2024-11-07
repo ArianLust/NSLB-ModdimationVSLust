@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colors:
   - player: {fileID: 11400000, guid: 8e33573d2c2ae7c4682fc6cdb5ea28cd, type: 2}
-    hatColor: {r: 0.7568628, g: 0.7568628, b: 0.75294125, a: 1}
-    overallsColor: {r: 0.16862746, g: 0.16862746, b: 0.16862746, a: 1}
+    hatColor: {r: 0.17254902, g: 0.8862746, b: 0.33333334, a: 1}
+    overallsColor: {r: 0.7607844, g: 1, b: 0.7960785, a: 1}
   - player: {fileID: 11400000, guid: 083779ae7bd92ab4295d580d757b328e, type: 2}
-    hatColor: {r: 0.7568628, g: 0.7568628, b: 0.75294125, a: 1}
-    overallsColor: {r: 0.16862746, g: 0.16862746, b: 0.16862746, a: 1}
+    hatColor: {r: 0.5058824, g: 0.83921576, b: 1, a: 1}
+    overallsColor: {r: 0.6039216, g: 0.9725491, b: 1, a: 1}
   - player: {fileID: 11400000, guid: 7deb380a54e067648b6eb7243094627f, type: 2}
     hatColor: {r: 0.7568628, g: 0.7568628, b: 0.75294125, a: 1}
     overallsColor: {r: 0.16862746, g: 0.16862746, b: 0.16862746, a: 1}

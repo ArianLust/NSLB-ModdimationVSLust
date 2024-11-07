@@ -84,6 +84,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/CustomOldJungle.unity
     guid: 7b9618bed83327340a44ef202ae50fd8
   - enabled: 1
+    path: Assets/Scenes/Levels/CustomGreenScreen.unity
+    guid: edfc8c60757a3ac479080827c0d2e0c3
+  - enabled: 1
     path: Assets/Scenes/Previews/GrassLandPV.unity
     guid: 1783df064ee8d7449ad9c54e32dd14ae
   - enabled: 1
@@ -128,6 +131,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Previews/MountainLevelPV.unity
     guid: 0c1071490b537c34687d2679dbcfc8be
+  - enabled: 1
+    path: Assets/Scenes/Previews/GreenScreenPV.unity
+    guid: 5ac8375a787150d469ead7af844e9396
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 49335f30d253220488d2d332ade6e901,
       type: 2}
