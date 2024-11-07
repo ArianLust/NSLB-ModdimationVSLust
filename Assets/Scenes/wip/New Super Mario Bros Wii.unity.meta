@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/wip/New Super Mario Bros Wii.unity.meta
 guid: da96eaa4758b590488ea4ebe750a5357
+========
+guid: 96dfc9736126c0646a24963b7d9e7f90
+folderAsset: yes
+>>>>>>>> ff6b644b3523779e0d5233ea209be93604cecf78:Assets/Models/Players/miibumm_big.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

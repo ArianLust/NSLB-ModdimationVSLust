@@ -613,10 +613,16 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         settingsScroll.verticalNormalizedPosition = 1;
     }
 
-
-    public void OpenTitleScreen() {
-        title.SetActive(true);
+    public void EnableBG(int width = 6){
+        bg.SetActive(true);
+        bg.GetComponent<RectTransform>().sizeDelta = new Vector2(width*100, bg.GetComponent<RectTransform>().sizeDelta.y);
+    }
+    public void DisableBG(){
         bg.SetActive(false);
+    }
+
+    public void DisableAllMenu() {
+        title.SetActive(false);
         mainMenu.SetActive(false);
         optionsMenu.SetActive(false);
         controlsMenu.SetActive(false);
@@ -625,36 +631,28 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         inLobbyMenu.SetActive(false);
         creditsMenu.SetActive(false);
         privatePrompt.SetActive(false);
+    }
+
+    public void OpenTitleScreen() {
+        DisableAllMenu();
+        DisableBG();
+        title.SetActive(true);
 
         EventSystem.current.SetSelectedGameObject(mainMenuSelected);
     }
     public void OpenMainMenu() {
-        title.SetActive(false);
-        bg.SetActive(true);
-        mainMenu.SetActive(true);
-        optionsMenu.SetActive(false);
-        controlsMenu.SetActive(false);
-        lobbyMenu.SetActive(false);
-        createLobbyPrompt.SetActive(false);
-        inLobbyMenu.SetActive(false);
-        creditsMenu.SetActive(false);
-        privatePrompt.SetActive(false);
+        DisableAllMenu();
         updateBox.SetActive(false);
+        EnableBG();
+        mainMenu.SetActive(true);
 
         EventSystem.current.SetSelectedGameObject(mainMenuSelected);
 
     }
     public void OpenLobbyMenu() {
-        title.SetActive(false);
-        bg.SetActive(true);
-        mainMenu.SetActive(false);
-        optionsMenu.SetActive(false);
-        controlsMenu.SetActive(false);
+        DisableAllMenu();
+        EnableBG();
         lobbyMenu.SetActive(true);
-        createLobbyPrompt.SetActive(false);
-        inLobbyMenu.SetActive(false);
-        creditsMenu.SetActive(false);
-        privatePrompt.SetActive(false);
 
         foreach (RoomIcon room in currentRooms.Values)
             room.UpdateUI(room.room);
@@ -662,74 +660,40 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         EventSystem.current.SetSelectedGameObject(lobbySelected);
     }
     public void OpenCreateLobby() {
-        title.SetActive(false);
-        bg.SetActive(true);
-        mainMenu.SetActive(false);
-        optionsMenu.SetActive(false);
-        controlsMenu.SetActive(false);
+        DisableAllMenu();
+        EnableBG();
         lobbyMenu.SetActive(true);
         createLobbyPrompt.SetActive(true);
-        inLobbyMenu.SetActive(false);
-        creditsMenu.SetActive(false);
-        privatePrompt.SetActive(false);
 
         privateToggle.isOn = false;
 
         EventSystem.current.SetSelectedGameObject(createLobbySelected);
     }
     public void OpenOptions() {
-        title.SetActive(false);
-        bg.SetActive(true);
-        mainMenu.SetActive(false);
+        DisableAllMenu();
+        EnableBG(8);
         optionsMenu.SetActive(true);
-        controlsMenu.SetActive(false);
-        lobbyMenu.SetActive(false);
-        createLobbyPrompt.SetActive(false);
-        inLobbyMenu.SetActive(false);
-        creditsMenu.SetActive(false);
-        privatePrompt.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(optionsSelected);
     }
     public void OpenControls() {
-        title.SetActive(false);
-        bg.SetActive(true);
+        DisableAllMenu();
+        EnableBG();
         mainMenu.SetActive(false);
-        optionsMenu.SetActive(false);
         controlsMenu.SetActive(true);
-        lobbyMenu.SetActive(false);
-        createLobbyPrompt.SetActive(false);
-        inLobbyMenu.SetActive(false);
-        creditsMenu.SetActive(false);
-        privatePrompt.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(controlsSelected);
     }
     public void OpenCredits() {
-        title.SetActive(false);
-        bg.SetActive(true);
-        mainMenu.SetActive(false);
-        optionsMenu.SetActive(false);
-        controlsMenu.SetActive(false);
-        lobbyMenu.SetActive(false);
-        createLobbyPrompt.SetActive(false);
-        inLobbyMenu.SetActive(false);
-        creditsMenu.SetActive(true);
-        privatePrompt.SetActive(false);
+        DisableAllMenu();
+        EnableBG();
 
         EventSystem.current.SetSelectedGameObject(creditsSelected);
     }
     public void OpenInLobbyMenu() {
-        title.SetActive(false);
-        bg.SetActive(true);
-        mainMenu.SetActive(false);
-        optionsMenu.SetActive(false);
-        controlsMenu.SetActive(false);
-        lobbyMenu.SetActive(false);
-        createLobbyPrompt.SetActive(false);
+        DisableAllMenu();
+        EnableBG();
         inLobbyMenu.SetActive(true);
-        creditsMenu.SetActive(false);
-        privatePrompt.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(currentLobbySelected);
     }
