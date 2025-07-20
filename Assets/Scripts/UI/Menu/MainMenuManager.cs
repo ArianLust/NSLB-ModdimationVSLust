@@ -687,6 +687,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public void OpenCredits() {
         DisableAllMenu();
         EnableBG();
+        creditsMenu.SetActive(true);
 
         EventSystem.current.SetSelectedGameObject(creditsSelected);
     }
